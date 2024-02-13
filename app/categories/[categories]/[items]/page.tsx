@@ -111,3 +111,4 @@ const ItemPage = () => {
 };
 
 export default ItemPage;
+export const runtime = 'edge';

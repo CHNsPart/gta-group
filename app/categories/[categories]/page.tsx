@@ -49,3 +49,4 @@ const CategoryPage = () => {
 };
 
 export default CategoryPage;
+export const runtime = 'edge';
