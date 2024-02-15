@@ -1,24 +1,8 @@
 // pages/[category]/page.tsx
 "use client"
 import ProductCard from "@/components/product-card";
-import { Badge } from "@/components/ui/badge";
-import { products } from "@/config/products";
-import Image, { StaticImageData } from "next/image";
+import { Product, products } from "@/config/products";
 import { useEffect, useState } from "react";
-
-interface Product {
-  id: number;
-  category: string;
-  subCategory: string;
-  title: string;
-  sku: string;
-  description: string;
-  image: StaticImageData;
-  price: {
-    quantity: number;
-    rate: number;
-  }[];
-}
 
 const CategoryPage = () => {
   const [categoryName, setCategoryName] = useState<string>("");

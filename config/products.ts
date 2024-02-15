@@ -1,7 +1,22 @@
 import hoodPic from "../public/hoodie.png"
 import crewPic from "../public/crew.png"
+import { StaticImageData } from "next/image";
+  
+export interface Product {
+    id: number;
+    category: string;
+    subCategory: string;
+    title: string;
+    sku: string;
+    description: string;
+    image: StaticImageData;
+    price: {
+      quantity: number;
+      rate: number;
+    }[];
+}
 
-export const products = [
+export const products: Product[] = [
     {
         id: 1,
         category: "apparel",
@@ -35,14 +50,14 @@ export const products = [
                 quantity: 99,
                 rate:129.99
             },
-        ],   
+        ],
     },
     {
         id: 2,
         category: "apparel",
         subCategory: "crewneck",
         title: "Crewneck Sweater",
-        sku:  "HOODIE001",
+        sku:  "CREW001",
         description: `
         Wordans is proud to present the Gildan 18000, the essential crewneck sweatshirt for all occasions! It is one of the most comfortable sweaters around, which is why it’s one of our bestsellers. Made from a 50/50 USA cotton/polyester blend, you can be sure the Gildan 18000 will keep its shape and feel long after you’ve bought it. As with many Gildan sweatshirts, the 18000 is perfect for daily wear, no matter the activity, whether you’re running errands or having a relaxing day on the sofa. With over 20 different colours available, there’s definitely a Gildan 18000 to go with every outfit, so get yours today at Wordans!
         `,
@@ -63,3 +78,16 @@ export const products = [
         ],
     },
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -10,7 +10,7 @@ import { productCategory } from '@/config/categories'
 
 export default function ProductNav() {
   return (
-    <div className='flex w-full items-center justify-center bg-primary py-5 text-white'>
+    <div className='flex w-full flex-wrap items-center justify-center bg-primary py-5 text-white'>
       {productCategory.map((category, index) => (
         <DropdownMenu key={index}>
           <DropdownMenuTrigger className='flex gap-2 rounded-lg px-5 py-2 text-lg font-bold hover:bg-secondary hover:text-primary'>

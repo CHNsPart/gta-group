@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge";
 interface ProductCardProps {
   product: {
     id: number;
+    category: string;
     subCategory: string;
     title: string;
     sku: string;
@@ -18,7 +19,7 @@ interface ProductCardProps {
 
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => (
   <div className="w-full p-4 md:w-1/2 lg:w-1/4">
-    <a className="relative block h-56 overflow-hidden rounded">
+    <a href={`/categories/${product.category}/${product.subCategory}/${product.sku}`} className="relative block h-56 overflow-hidden rounded hover:cursor-pointer">
       <Image
         quality={100}
         alt={product.title}
