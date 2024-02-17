@@ -7,6 +7,7 @@ import { cn } from "@/lib/utils"
 import { SiteHeader } from "@/components/site-header"
 import { ThemeProvider } from "@/components/theme-provider"
 import ProductNav from "@/components/product-nav"
+import Footer from "@/components/footer"
 
 export const metadata: Metadata = {
   title: {
@@ -45,6 +46,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
               <SiteHeader />
               <ProductNav />
               <div className="flex-1">{children}</div>
+              <Footer/>
             </div>
           </ThemeProvider>
         </body>

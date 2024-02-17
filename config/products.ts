@@ -1,5 +1,11 @@
 import hoodPic from "../public/hoodie.png"
 import crewPic from "../public/crew.png"
+import fknife from "../public/fknife.png"
+import fknife_s1 from "../public/fknife_s1.png"
+import golf_1 from "../public/golf_1.png"
+import golf_2 from "../public/golf_2.png"
+
+
 import { StaticImageData } from "next/image";
   
 export interface Product {
@@ -11,9 +17,10 @@ export interface Product {
     description: string;
     image: StaticImageData;
     price: {
-      quantity: number;
+      quantity: number | string;
       rate: number;
     }[];
+    secondImages?: StaticImageData[]
 }
 
 export const products: Product[] = [
@@ -76,6 +83,62 @@ export const products: Product[] = [
                 rate:129.99
             },
         ],
+    },
+    {
+        id: 3,
+        category: "tools",
+        subCategory: "knifes",
+        title: "Folding Fillet Knife",
+        sku:  "CM1222",
+        description: `
+        Folding Fillet knife comes in heavy duty pouch, with clip and belt loop. Fillet knife blade constructed of 440 stainless steel, folds into handle constructed of wood. Compact and durable, it makes a great addition to every tackle box. This knife can be further personalized on the blade, giving you the opportunity to make a truly unique promotion
+        `,
+        image: fknife,
+        price: [
+            {
+                quantity: 25,
+                rate:34.41
+            },
+            {
+                quantity: 50,
+                rate:32.35
+            },
+            {
+                quantity: 100,
+                rate:30.98
+            },
+            {
+                quantity: 144,
+                rate:28.47
+            },
+        ],
+        secondImages: [fknife_s1],
+    },
+    {
+        id: 4,
+        category: "tools",
+        subCategory: "others",
+        title: "Golf Scorecard Holder",
+        sku:  "C142199",
+        description: `
+        This bi-fold, faux leather scorecard holder securely holds midsized cards and closes neatly when not in use. An interior elastic-bound pencil loop can hold your on-course writing utensil. The compact design fits neatly into your golf bag.
+        `,
+        image: golf_1,
+        price: [
+            {
+                quantity: 49,
+                rate:16.23
+            },
+            {
+                quantity: "50-99",
+                rate:15.35
+            },
+            {
+                quantity: "100-250",
+                rate:14.68
+            },
+        ],
+        secondImages: [golf_2],
     },
 ]
 
