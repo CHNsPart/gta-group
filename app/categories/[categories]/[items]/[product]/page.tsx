@@ -47,7 +47,7 @@ const ProductPage = () => {
           </h1>
         </div>
         {selectedProduct ? (
-          <ProductDetail product={selectedProduct} />
+          <ProductDetail product={selectedProduct as any} />
         ) : (
           <div className="flex w-full items-center justify-center">
             <TbLoader2 size={100} className="animate-spin" />

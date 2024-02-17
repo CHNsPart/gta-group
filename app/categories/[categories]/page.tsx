@@ -24,7 +24,7 @@ const CategoryPage = () => {
         </div>
         <div className="-m-4 flex flex-wrap">
           {categoryProducts.map((product) => (
-            <ProductCard key={product.id} product={product} />
+            <ProductCard key={product.id} product={product as any} />
           ))}
         </div>
       </div>

@@ -16,7 +16,7 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ product }) => {
         <div className="col-span-2 row-span-2 grid grid-cols-2 gap-2">
           {/* Render here the secondInages in a loop */}
           {product.secondImages &&
-            product.secondImages.map((secondImage, index) => (
+            product.secondImages?.map((secondImage, index) => (
               <Image
                 key={index}
                 height={500}
@@ -59,3 +59,4 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ product }) => {
 };
 
 export default ProductDetail;
+
