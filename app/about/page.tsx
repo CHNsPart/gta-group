@@ -9,7 +9,6 @@ export default function page() {
       </p>
       <span className="mt-6 w-1/2 rounded-lg bg-gradient-to-tr from-blue-500 to-blue-700 px-5 py-2 text-center text-lg text-white">Contact Us</span>
       <span className='flex w-fit items-center justify-center rounded-b-lg bg-gray-950 px-5 py-2.5 text-center text-white dark:bg-gray-100 dark:text-black'>
-        Sandra Taylor<br/>
         416-799-1296<br/>
         easypaygtagroup@gmail.com
       </span>

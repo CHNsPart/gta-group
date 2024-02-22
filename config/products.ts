@@ -78,6 +78,69 @@ import safetyGlassesImage from "../public/safetyGlassesImage.png"
 import tshirtImage from "../public/tshirtImage.png"
 import abcap from "../public/abcap.png"
 import whatsa from "../public/whatsa.png"
+import mpen from "../public/mpen.png"
+
+import tpen from "../public/tpen.png"
+
+import cboard1 from "../public/cboard1.png"
+import cboard2 from "../public/cboard2.png"
+
+import wineBoxImage from "../public/wineBoxImage.png"
+import wineBoxImage2 from "../public/wineBoxImage2.png"
+
+import golfKitImage from "../public/golfKitImage.png"
+import golfToolImage from "../public/golfToolImage.png";
+
+import flashlightToolImage from "../public/flashlightToolImage.png";
+import flashlightToolImage2 from "../public/flashlightToolImage2.png";
+import flashlightToolImage3 from "../public/flashlightToolImage3.png";
+import flashlightToolImage4 from "../public/flashlightToolImage4.png";
+import wineSetImage from "../public/wineSetImage.png";
+import coasterImage1 from "../public/coasterImage1.png";
+import coasterImage2 from "../public/coasterImage2.png";
+
+import coasterSetImage1 from "../public/coasterSetImage1.png";
+import coasterSetImage2 from "../public/coasterSetImage2.png";
+import coasterSetImage3 from "../public/coasterSetImage3.png";
+import coasterSetImage4 from "../public/coasterSetImage4.png";
+import coasterSetImage5 from "../public/coasterSetImage5.png";
+
+import usbDriveImage from '../public/usbDriveImage.png';
+import toteImage from '../public/toteImage.png';
+import penImage from '../public/penImage.png';
+import penImage2 from '../public/penImage2.png';
+import steakKnifeImage from '../public/steakKnifeImage.png';
+import steakKnifeImage2 from '../public/steakKnifeImage2.png';
+import floatingKeyImage from '../public/floatingKeyImage.png';
+import tapeMeasureImage from '../public/tapeMeasureImage.png';
+import bottleOpenerImage from '../public/bottleOpenerImage.png';
+
+import breezeTumblerImage1 from './path/to/breezeTumblerImage1.png';
+import breezeTumblerImage2 from './path/to/breezeTumblerImage2.png';
+import breezeTumblerImage3 from './path/to/breezeTumblerImage3.png';
+import steelTumblerImage from './path/to/steelTumblerImage.png';
+import europeMugImage from './path/to/europeMugImage.png';
+
+import gripperMultiToolImage1 from './path/to/gripperMultiToolImage1.png';
+import gripperMultiToolImage2 from './path/to/gripperMultiToolImage2.png';
+import gripperMultiToolImage3 from './path/to/gripperMultiToolImage3.png';
+
+import survivalRescueKnifeImage1 from './path/to/survivalRescueKnifeImage1.png';
+import survivalRescueKnifeImage2 from './path/to/survivalRescueKnifeImage2.png';
+import survivalRescueKnifeImage3 from './path/to/survivalRescueKnifeImage3.png';
+import survivalRescueKnifeImage4 from './path/to/survivalRescueKnifeImage4.png';
+
+import emergencyFlashlightImage1 from './path/to/emergencyFlashlightImage1.png';
+import emergencyFlashlightImage2 from './path/to/emergencyFlashlightImage2.png';
+
+import telescopicFlashlightImage1 from './path/to/telescopicFlashlightImage1.png';
+import telescopicFlashlightImage2 from './path/to/telescopicFlashlightImage2.png';
+import telescopicFlashlightImage3 from './path/to/telescopicFlashlightImage3.png';
+
+import miniMagliteFlashlightImage1 from './path/to/miniMagliteFlashlightImage1.png';
+import miniMagliteFlashlightImage2 from './path/to/miniMagliteFlashlightImage2.png';
+import miniMagliteFlashlightImage3 from './path/to/miniMagliteFlashlightImage3.png';
+import miniMagliteFlashlightImage4 from './path/to/miniMagliteFlashlightImage4.png';
 
 
 import { StaticImageData } from "next/image";
@@ -851,20 +914,25 @@ Size: 25 x 19mm (1" x 3/4").
         id,
         category: "apparel",
         subCategory: "tshirts",
-        title: "Gildan G640 - A Classic T-shirt with a Modern Feel",
-        sku: "WSku64000",
+        title: "GILDAN 64000 - Men T-shirt",
+        sku: "G640, G64000",
         description: `
             The Gildan G640 is one of the most popular products in the Gildan Softstyle® t-shirt range and with good reason! Made from 100% ringspun cotton, this t-shirt is one of the softest and most comfortable options on the market. What’s more, you won’t find bulk deals for the Gildan G640 cheaper than right here at Wordans and with over 20 colour options to choose from in sizes S to 3XL, why not make a wholesale order today?
     
-            - Seamless double-needle 3/4" collar
-            - Taped neck and shoulders
-            - Rolled forward shoulder
-            - Double-needle sleeve and bottom hem
-            - Tubular fit for minimal torque
-            - 7.5 oz./lin.yd., 100% preshrunk ringspun cotton jersey
-            - Sport Grey and Antique Colours: 90% cotton, 10% polyester
-            - Graphite Heather: 50% cotton, 50% polyester
-            - All other Heather Colours: 65% polyester, 35% cotton
+            * Fit: Semi-Fitted
+            * Fabric: 4.5 oz/sq yd 100% Ring Spun Cotton
+            * Sport Grey and Antique colors are 90% cotton/10% polyester
+            * Dark Heather, Blackberry and Heathers are 65% polyester/35% cotton
+            * Graphite Heather 50% cotton/50% polyester
+            * Preshrunk jersey knit
+            * High stitch density for smoother printing surface
+            * Seamless double-needle 1.9 cm collar
+            * Taped neck and shoulders
+            * Tear away label
+            * Rolled forward shoulder
+            * Double-needle sleeve and bottom hems
+            * Quarter-turned to eliminate centre crease
+            * Narrow width with rib collar
         `,
         image: tshirtImage,
         price: [
@@ -913,7 +981,455 @@ Size: 25 x 19mm (1" x 3/4").
             { quantity: 72, rate: 24.99 },
             { quantity: 144, rate: 18.99 },
         ],
-    }
+    },
+    {
+        id,
+        category: "tools",
+        subCategory: "pens",
+        title: "Striper Metal Twist Action Ballpoint Pen",
+        sku: "MSkuSTRIPER",
+        description: `
+            Triper metal twist action ballpoint pen is a colored pen with gold tone trim including end, outline of pocket clip with matching pen color on clip, and writing end tip, complete with metal medium point blue ink refill.
+        `,
+        image: mpen,
+        price: [
+            { quantity: 100, rate: 3.80 },
+            { quantity: 500, rate: 3.49 },
+            { quantity: 1000, rate: 2.75 },
+            { quantity: 2500, rate: 2.25 },
+        ],
+    },
+    {
+        id,
+        category: "tools",
+        subCategory: "pens",
+        title: "Tremblant Metal Twist Action Ballpoint Pen",
+        sku: "MSkuTREMBLANT",
+        description: `
+            Metal medium point black ink refill with jumbo metal medium point blue ink refill. Velvet sleeve is an extra option
+        `,
+        image: tpen,
+        price: [
+            { quantity: 100, rate: 5.67 },
+            { quantity: 500, rate: 5.11 },
+            { quantity: 1000, rate: 4.74 },
+            { quantity: 2500, rate: 4.35 },
+        ],
+    },
+    {
+        id,
+        category: "homeAndlifestyle",
+        subCategory: "cuttingboards",
+        title: "Bamboo Cutting Board",
+        sku: "MSkuCB003",
+        description: `
+            Gift boxed bamboo rectangle cutting-board with grooved surface with built-in hanging hole. 14" W x 9" H.
+        `,
+        image: cboard1,
+        price: [
+            { quantity: 25, rate: 39.99 },
+            { quantity: 100, rate: 35.99 },
+            { quantity: 250, rate: 29.99 },
+            { quantity: 500, rate: 24.99 },
+        ],
+        secondImages: [cboard2],
+    },
+    {
+        id,
+        category: "drinkware",
+        subCategory: "wine",
+        title: "Rosewood Wine Box",
+        sku: "4SkuC103921",
+        description: "",
+        image: wineBoxImage,
+        price: [
+            { quantity: 25, rate: 59.99 },
+            { quantity: 36, rate: 57.99 },
+            { quantity: 72, rate: 52.99 },
+            { quantity: 100, rate: 49.99 },
+        ],
+        secondImages: [wineBoxImage2],
+    },
+    {
+        id,
+        category: "homeAndlifestyle",
+        subCategory: "golf",
+        title: "First Tee Golf Kit",
+        sku: "4SkuC103921",
+        description: "Hit a promotional hole in one with these custom golf tool kits! Logoed golf tool kits make great giveaways at company golf outings, at charity events and more!",
+        image: golfKitImage,
+        price: [
+            { quantity: 50, rate: 21.48 },
+            { quantity: 72, rate: 20.28 },
+            { quantity: 144, rate: 19.57 },
+            { quantity: 2500, rate: 16.46 },
+        ],
+    },
+    {
+        id,
+        category: "homeAndlifestyle",
+        subCategory: "golf",
+        title: "Carabiner Golf Tool",
+        sku: "4SkuC128394",
+        description: "This zinc alloy golf tool features a golf divot, cleat adjustment tool, cigar cutter and ball marker. Also includes an integrated carabiner, making it easy to attach to your golf bag, keyring or person.",
+        image: golfToolImage,
+        price: [
+            { quantity: 36, rate: 22.48 },
+            { quantity: 72, rate: 20.85 },
+            { quantity: 144, rate: 17.99 },
+            { quantity: 2500, rate: 15.46 },
+        ],
+    },
+    {
+        id,
+        category: "tools",
+        subCategory: "flashlights",
+        title: "Emergency COB Flashlight Multi-Tool",
+        sku: "4SkuC150661",
+        description: "",
+        image: flashlightToolImage,
+        price: [
+            { quantity: 25, rate: 34.99 },
+            { quantity: 50, rate: 32.99 },
+            { quantity: 1, rate: 29.57 },
+            { quantity: 2.5, rate: 24.95 },
+        ],
+        secondImages: [flashlightToolImage2, flashlightToolImage3, flashlightToolImage4],
+    },
+    {
+        id,
+        category: "drinkware",
+        subCategory: "wine",
+        title: "Wine Stopper & Opener Set",
+        sku: "4SkuC115772",
+        description: "This luxurious wine set includes a silver wine stopper and a multi-use tool with a bottle opener, corkscrew, and knife.",
+        image: wineSetImage,
+        price: [
+            { quantity: 25, rate: 45.00 },
+            { quantity: 72, rate: 41.99 },
+            { quantity: 100, rate: 39.99 },
+        ],
+    },
+    {
+        id,
+        category: "homeAndlifestyle",
+        subCategory: "barbeque",
+        title: "Centre Stage Coaster - Square",
+        sku: "4SkuC117615SQ",
+        description: "These coasters are perfect for promoting your restaurant, hotel, or as giveaways at your next tradeshow.",
+        image: coasterImage1,
+        price: [
+            { quantity: 100, rate: 12.48 },
+            { quantity: 200, rate: 11.28 },
+            { quantity: 288, rate: 10.57 },
+            { quantity: 500, rate: 9.46 },
+        ],
+        secondImages: [coasterImage2],
+    },
+    {
+        id,
+        category: "homeAndlifestyle",
+        subCategory: "kitchenware",
+        title: "Acacia Wood 4-Piece Coaster Set in Metal Stand - Square",
+        sku: "4SkuC162911SQ",
+        description: "Line your tables with these wooden coasters. Coaster sets include 4 coasters and a metal coaster stand. Coasters are square in shape.",
+        image: coasterSetImage1,
+        price: [
+            { quantity: 25, rate: 39.95 },
+            { quantity: 50, rate: 37.28 },
+            { quantity: 72, rate: 35.57 },
+            { quantity: 144, rate: 29.99 },
+        ],
+        secondImages: [coasterSetImage2, coasterSetImage3, coasterSetImage4, coasterSetImage5],
+    },
+    {
+        id,
+        category: "tools",
+        subCategory: "keychains",
+        title: "USB Swing Drive - 4GB",
+        sku: "4SkuC1046014G",
+        description: "These USB flash drives feature 4GB of memory and a 2.0 data transfer speed. Includes a silver keychain, bright-coloured accents and a silver rotating cover.",
+        image: usbDriveImage,
+        price: [
+            { quantity: 25, rate: 18.99 },
+            { quantity: 50, rate: 18.28 },
+            { quantity: 1000, rate: 16.57 },
+            { quantity: 2000, rate: 12.46 },
+        ],
+    },
+    {
+        id,
+        category: "tools",
+        subCategory: "bags",
+        title: "Convention Tote",
+        sku: "MSkuBG001",
+        description: "This non-woven 80-gram convention tote is environmentally friendly, durable, and lightweight for multiple uses. Available in 5 standard colors. Note: Additional Duties will apply if shipping to the USA. 15\" H x 13\" W",
+        image: toteImage,
+        price: [
+            { quantity: 150, rate: 3.48 },
+            { quantity: 400, rate: 3.28 },
+            { quantity: 1200, rate: 2.57 },
+            { quantity: 2000, rate: 2.12 },
+        ],
+    },
+    {
+        id,
+        category: "tools",
+        subCategory: "pens",
+        title: "Primetime Pen - Metallic",
+        sku: "4SkuC107547MET",
+        description: "The slim pen size makes it a nice fit in the hand, pen loop, or a notebook spiral. Rich metallic barrel colours will stand out in their desk drawers.",
+        image: penImage,
+        price: [
+            { quantity: 300, rate: 3.89 },
+            { quantity: 500, rate: 3.42 },
+            { quantity: 1000, rate: 2.99 },
+            { quantity: 2500, rate: 2.25 },
+        ],
+        secondImages: [penImage2],
+    },
+    {
+        id,
+        category: "homeAndlifestyle",
+        subCategory: "Kitchenware",
+        title: "Rosewood Steak Knife Set of 6",
+        sku: "MSkuK010ROSEWOOD",
+        description: "Gift boxed 6 piece steak knife set w/ rosewood handles and stainless steel serrated blades. 9 1/2\" L x 3/4\" W Color may vary also in Maple. Beautiful knives",
+        image: steakKnifeImage,
+        price: [
+            { quantity: 24, rate: 34.99 },
+            { quantity: 144, rate: 32.60 },
+            { quantity: 288, rate: 27.73 },
+            { quantity: 576, rate: 24.17 },
+        ],
+        secondImages: [steakKnifeImage2],
+    },
+    {
+        id,
+        category: "tools",
+        subCategory: "keychains",
+        title: "Floating Key",
+        sku: "MSkuFKT001",
+        description: "Soft foam floating key tag with silver metal ball chain for those keys you don't want to lose while boating. 3 1/4\" L x 1 1/2\" H",
+        image: floatingKeyImage,
+        price: [
+            { quantity: 250, rate: 3.58 },
+            { quantity: 500, rate: 2.99 },
+            { quantity: 1000, rate: 2.50 },
+            { quantity: 2500, rate: 1.99 },
+        ],
+    },
+    {
+        id,
+        category: "tools",
+        subCategory: "keychains",
+        title: "Tape measure with Key Chain",
+        sku: "MSkuTM003",
+        description: "3' retractable metal tape measure complete with standard and metric measurements, lock button and key chain attachment. 1 1/2\" W x 1 1/2\" H",
+        image: tapeMeasureImage,
+        price: [
+            { quantity: 250, rate: 4.71 },
+            { quantity: 500, rate: 3.75 },
+            { quantity: 1000, rate: 3.25 },
+            { quantity: 2500, rate: 2.99 },
+        ],
+    },
+    {
+        id,
+        category: "tools",
+        subCategory: "keychains",
+        title: "Bottlelite 3 in 1 Bottle Opener Key Tag/ LED Light",
+        sku: "MSkuKT009",
+        description: "Silver rectangular 3 in 1 bottle opener/key tag/LED features a colored rectangular center on 1 end with a small round silver push on/off flashlight button in which LED light shines from the center of that end with a cut-out bottle opener on the other end with a chain attached to the corner with a silver metal split ring on the end of the chain. 2 3/4\" W x 1 1/2\" H",
+        image: bottleOpenerImage,
+        price: [
+            { quantity: 250, rate: 3.90 },
+            { quantity: 500, rate: 3.58 },
+            { quantity: 1000, rate: 3.22 },
+            { quantity: 2500, rate: 2.95 },
+        ],
+    },
+    {
+        id,
+        category: "drinkware",
+        subCategory: "tumblers",
+        title: "Breeze 16 ounce Stainless Steel NEW",
+        sku: "MSkuDW025",
+        description: `
+            Stainless Steel double wall insulated Tumbler complete with acrylic safety lid. 
+            Features an easy snap on lock button, 500 ml (Not microwave or dishwasher safe) 
+            Approximately: 12 Hours Hot/Cold. 6.5" H x 3" W
+        `,
+        image: breezeTumblerImage1,
+        price: [
+            { quantity: 48, rate: 29.99 },
+            { quantity: 72, rate: 25.99 },
+            { quantity: 100, rate: 22.00 },
+            { quantity: 144, rate: 19.99 },
+        ],
+        secondImages: [breezeTumblerImage2, breezeTumblerImage3],
+    },
+    {
+        id,
+        category: "drinkware",
+        subCategory: "tumblers",
+        title: "Steel Tumbler with Colour Trim - 16 oz.",
+        sku: "4SkuC7397",
+        description: `
+            Double-wall insulation retains beverage temperature longer. 
+            Stainless steel tumbler features striking trim colours to draw attention to your message.
+        `,
+        image: steelTumblerImage,
+        price: [
+            { quantity: 50, rate: 29.99 },
+            { quantity: 72, rate: 25.99 },
+            { quantity: 100, rate: 22.00 },
+            { quantity: 144, rate: 19.99 },
+        ],
+    },
+    {
+        id,
+        category: "drinkware",
+        subCategory: "coffeemugs",
+        title: "Europe Mug - 12 oz.",
+        sku: "4SkuC8629",
+        description: `
+            This personalized ceramic coffee mug features an elegant curved handle 
+            and is available in an assortment of bright colours.
+        `,
+        image: europeMugImage,
+        price: [
+            { quantity: 72, rate: 12.00 },
+        ],
+    },
+    {
+        id,
+        category: "tools",
+        subCategory: "others",
+        title: "Gripper Multi-Tool",
+        sku: "4SkuC117946",
+        description: `
+            You won't be caught unprepared with this tool that easily fits in your pocket, briefcase, or desk drawer. 
+            The stainless steel body is durable and sturdy enough for all those little jobs that come up. 
+            The aluminum case has a sleek, strong anodized finish that comes in a variety of bold colors and is the perfect place to adorn your company logo. 
+            Easily gift this product with the handsome black polyester carrying case.
+        `,
+        image: gripperMultiToolImage1,
+        price: [
+            { quantity: 12, rate: 59.99 },
+            { quantity: 24, rate: 49.99 },
+            { quantity: 36, rate: 44.99 },
+            { quantity: 48, rate: 42.99 },
+            { quantity: 72, rate: 39.99 },
+            { quantity: 144, rate: 34.99 },
+        ],
+        secondImages: [gripperMultiToolImage2, gripperMultiToolImage3],
+    },
+    {
+        id,
+        category: "tools",
+        subCategory: "knives",
+        title: "Elemental Survival/Rescue Knife",
+        sku: "4SkuC131361",
+        description: `
+            This rescue knife has everything they need for camping survival.
+            Designed with a two-stage blade that is both straight and serrated for all cutting needs.
+            It also features a seatbelt cutter and window hammer in case of a vehicle emergency.
+            The removable miniature magnet flashlight can help brighten their surroundings for better visibility.
+            Also included is fire starting flint, which allows them to start a fire manually.
+            Knife also has a pocket clip for easy transport and a nylon pouch for storage.
+            Great for any outdoor enthusiasts, hunters, national park, and much more!
+            Size: 41 x 127 x 38mm (1-5/8" x 5" x 1-1/2").
+        `,
+        image: survivalRescueKnifeImage1,
+        price: [
+            { quantity: 25, rate: 59.99 },
+            { quantity: 36, rate: 54.99 },
+            { quantity: 48, rate: 52.99 },
+            { quantity: 72, rate: 49.99 },
+            { quantity: 144, rate: 37.99 },
+        ],
+        secondImages: [survivalRescueKnifeImage2, survivalRescueKnifeImage3, survivalRescueKnifeImage4],
+    },
+    {
+        id,
+        category: "tools",
+        subCategory: "flashlights",
+        title: "Northline Emergency COB Flashlight",
+        sku: "4SkuC148717",
+        description: `
+            This emergency tool features a side COB light, seatbelt cutter, and a window hammer.
+            Material: Metal
+            60 lumen COB light
+            Seal belt cutter
+            Window hammer
+            Includes five replaceable button cell batteries
+            Size: 127 x 44mm (5" long x 1-3/4" W)
+        `,
+        image: emergencyFlashlightImage1,
+        price: [
+            { quantity: 48, rate: 29.99 },
+            { quantity: 72, rate: 26.99 },
+            { quantity: 144, rate: 21.99 },
+            { quantity: 250, rate: 18.99 },
+        ],
+        secondImages: [emergencyFlashlightImage2],
+    },
+    {
+        id,
+        category: "tools",
+        subCategory: "flashlights",
+        title: "Telescopic Flashlight with Magnet",
+        sku: "4SkuC134493",
+        description: `
+            This expanding flashlight and magnet combination is a useful tool to keep handy. 
+            Magnetic head and base help pick up small metal objects, such as keys, screws, or nails. 
+            Extendable handle and 360-degree flexible head help shine the light exactly where you need it.
+            Material: Aluminum
+            Light: 3 LED lights
+            On/Off button to activate
+            Extendable handle
+            Flexible head
+            Magnet to base
+            Includes button cell batteries
+            Flashlight Size: 19 x 171mm (3/4" x 6-3/4")
+        `,
+        image: telescopicFlashlightImage1,
+        price: [
+            { quantity: 36, rate: 29.99 },
+            { quantity: 72, rate: 24.99 },
+            { quantity: 100, rate: 22.00 },
+            { quantity: 144, rate: 19.99 },
+        ],
+        secondImages: [telescopicFlashlightImage2, telescopicFlashlightImage3],
+    },
+    {
+        id,
+        category: "tools",
+        subCategory: "flashlights",
+        title: "5-3/4\" Mini MagLite Flashlight",
+        sku: "4SkuC17585",
+        description: `
+            This custom flashlight is made of High Grade Aircraft Aluminum that is water and shock-resistant. 
+            Included is a spare bulb hidden in the tail cap and two AA batteries.
+            Material: Aluminum
+            Water-resistant
+            Shock-resistant
+            Operational Modes: Spot light and flood light
+            Packaged in an individual gift box
+            Includes spare bulb
+            Includes 2 replaceable AA batteries
+            Flashlight Size: 146mm (5-3/4")
+        `,
+        image: miniMagliteFlashlightImage1,
+        price: [
+            { quantity: 36, rate: 39.99 },
+            { quantity: 72, rate: 34.99 },
+            { quantity: 100, rate: 31.99 },
+            { quantity: 144, rate: 29.99 },
+        ],
+        secondImages: [miniMagliteFlashlightImage2, miniMagliteFlashlightImage3, miniMagliteFlashlightImage4],
+    },
     
     
 ]

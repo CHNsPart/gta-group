@@ -57,6 +57,10 @@ export const productCategory: ProductCategory[] = [
           label: "Glasses",
           link: "/categories/drinkware/glasses"
         },
+        {
+          label: "Wine",
+          link: "/categories/drinkware/wine"
+        }
       ]
     },
     {
@@ -81,6 +85,10 @@ export const productCategory: ProductCategory[] = [
         {
           label: "Umbrellas",
           link: "/categories/homeAndlifestyle/umbrellas"
+        },
+        {
+          label: "Golf",
+          link: "/categories/homeAndlifestyle/golf"
         },
         {
           label: "Travel",
