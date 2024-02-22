@@ -3,8 +3,8 @@ import { Button } from "./ui/button";
 
 export const Header = () => {
     return (
-      <div className="container relative flex flex-col py-16 lg:flex-col lg:py-0">
-        <div className="mx-auto flex w-full max-w-xl flex-col items-start px-4 lg:max-w-screen-xl lg:px-8">
+      <div className="relative flex w-full flex-col bg-gradient-to-tr from-blue-300 to-white py-16 dark:from-blue-950 lg:flex-col lg:py-0">
+        <div className="container mx-auto flex w-full max-w-xl flex-col items-start px-4 lg:max-w-screen-xl lg:px-8">
           <div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
             <div className="mb-6 max-w-xl">
               <div>
@@ -36,8 +36,8 @@ export const Header = () => {
             width={500}
             quality={100}
             priority
-            className="h-56 w-full rounded object-cover shadow-lg sm:h-96 lg:h-full lg:rounded-none lg:shadow-none"
-            src="/hero.png"
+            className="h-56 w-full rounded object-cover sm:h-96 lg:h-fit lg:rounded-none lg:shadow-none"
+            src="/hero-gta.svg"
             alt="hero"
           />
         </div>

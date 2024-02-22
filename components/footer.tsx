@@ -7,11 +7,11 @@ const Footer: React.FC = () => {
         <div className="flex flex-col items-center border-t pt-6">
           {/* nav - start */}
           <nav className="mb-4 flex flex-wrap justify-center gap-x-4 gap-y-2 md:justify-start md:gap-6">
-            <a href="#" className="text-gray-500 transition duration-100 hover:text-primary">About</a>
-            <a href="#" className="text-gray-500 transition duration-100 hover:text-primary">Investor Relations</a>
-            <a href="#" className="text-gray-500 transition duration-100 hover:text-primary">Jobs</a>
-            <a href="#" className="text-gray-500 transition duration-100 hover:text-primary">Press</a>
-            <a href="#" className="text-gray-500 transition duration-100 hover:text-primary">Blog</a>
+            <a href="/about" className="text-gray-500 transition duration-100 hover:text-primary">About</a>
+            <a href="/categories/apparel" className="text-gray-500 transition duration-100 hover:text-primary">Apparel</a>
+            <a href="/categories/tools" className="text-gray-500 transition duration-100 hover:text-primary">Tools</a>
+            <a href="/categories/homeAndlifestyle" className="text-gray-500 transition duration-100 hover:text-primary">Lifestyle</a>
+            <a href="/categories/safetygear" className="text-gray-500 transition duration-100 hover:text-primary">Safety</a>
           </nav>
           {/* nav - end */}
 
@@ -44,7 +44,7 @@ const Footer: React.FC = () => {
           {/* social - end */}
         </div>
 
-        <div className="py-8 text-center text-sm text-gray-400">© 2024 - GTA Group. All rights reserved.</div>
+        <div className="py-8 text-center text-sm text-gray-400">© 2024 - GTA Group. All rights reserved. Powered by <a className='hover:cursor-pointer hover:text-primary' href="https://chnspart.com" target='_blank' rel="noreferrer">CHNsPart</a></div>
       </footer>
     </div>
   );

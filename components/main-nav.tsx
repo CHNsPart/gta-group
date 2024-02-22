@@ -110,7 +110,7 @@ export function MainNav({ items }: MainNavProps) {
           <nav className="flex flex-col gap-4 p-4">
             <button
               onClick={toggleMenu}
-              className="z-50 w-full flex justify-end focus:outline-none md:hidden"
+              className="z-50 flex w-full justify-end focus:outline-none md:hidden"
               aria-label="Toggle Menu"
             >
               <AiOutlineClose size={50} className="text-red-500" />
@@ -122,7 +122,7 @@ export function MainNav({ items }: MainNavProps) {
                     key={index}
                     href={item.href}
                     className={cn(
-                      "flex justify-between items-center border rounded-lg p-5 text-lg font-medium text-muted-foreground",
+                      "flex items-center justify-between rounded-lg border p-5 text-lg font-medium text-muted-foreground",
                       item.disabled && "cursor-not-allowed opacity-80"
                     )}
                     onClick={toggleMenu}

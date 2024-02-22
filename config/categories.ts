@@ -46,8 +46,8 @@ export const productCategory: ProductCategory[] = [
           link: "/categories/drinkware/"
         },
         {
-          label: "Tea Cups",
-          link: "/categories/drinkware/teacups"
+          label: "Tumblers",
+          link: "/categories/drinkware/tumblers"
         },
         {
           label: "Coffee Mugs",
@@ -56,6 +56,35 @@ export const productCategory: ProductCategory[] = [
         {
           label: "Glasses",
           link: "/categories/drinkware/glasses"
+        },
+      ]
+    },
+    {
+      menu: "Home & Lifestyle",
+      items: [
+        {
+          label: "All Product",
+          link: "/categories/homeAndlifestyle/"
+        },
+        {
+          label: "Cutting Boards",
+          link: "/categories/homeAndlifestyle/cuttingboards"
+        },
+        {
+          label: "Barbeque",
+          link: "/categories/homeAndlifestyle/barbeque"
+        },
+        {
+          label: "Kitchenware",
+          link: "/categories/homeAndlifestyle/kitchenware"
+        },
+        {
+          label: "Umbrellas",
+          link: "/categories/homeAndlifestyle/umbrellas"
+        },
+        {
+          label: "Travel",
+          link: "/categories/homeAndlifestyle/travel"
         },
       ]
     },
@@ -70,6 +99,10 @@ export const productCategory: ProductCategory[] = [
           label: "Safety Glasses",
           link: "/categories/safetygear/safetyglasses"
         },
+        {
+          label: "Safety Cloths",
+          link: "/categories/safetygear/safetycloths"
+        },
       ]
     },
     {
@@ -80,17 +113,29 @@ export const productCategory: ProductCategory[] = [
           link: "/categories/tools/"
         },
         {
+          label: "Key Chains",
+          link: "/categories/tools/keychains"
+        },
+        {
+          label: "Pens",
+          link: "/categories/tools/pens"
+        },
+        {
+          label: "Bags",
+          link: "/categories/tools/bags"
+        },
+        {
           label: "Flash Lights",
           link: "/categories/tools/flashlights"
         },
         {
-          label: "Knifes",
-          link: "/categories/tools/knifes"
+          label: "Knives",
+          link: "/categories/tools/knives"
         },
         {
           label: "Others",
           link: "/categories/tools/others"
         },
       ]
-    },
+    }, 
   ];

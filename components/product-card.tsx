@@ -14,6 +14,7 @@ interface ProductCardProps {
       quantity: number;
       rate: number;
     }[];
+    secondImages?: StaticImageData[]
   };
 }
 
@@ -23,7 +24,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => (
       <Image
         quality={100}
         alt={product.title}
-        className="block size-full object-cover object-center"
+        className="block size-full object-cover object-center transition-all hover:scale-105"
         src={product.image}
       />
     </a>
@@ -33,7 +34,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => (
       </Badge>
       <h3 className="title-font mb-1 text-xs tracking-widest text-gray-500">{product.sku}</h3>
       <h2 className="title-font text-lg font-medium text-primary">{product.title}</h2>
-      <p className="mt-1 font-bold">${product.price[0].rate}</p>
+      <p className="mt-1 font-bold">{"$" + product.price[0].rate + " - " + "$" + product.price[product.price.length-1].rate}</p>
     </div>
   </div>
 );

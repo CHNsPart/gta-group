@@ -13,6 +13,7 @@ module.exports = {
       },
     },
     extend: {
+      backgroundOpacity: ['active'],
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -72,5 +73,8 @@ module.exports = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [
+    require("tailwindcss-animate"),
+  ],
+  
 }
