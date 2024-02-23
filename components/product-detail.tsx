@@ -52,7 +52,7 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ product }) => {
             <thead>
                 <tr>
                 <th className="border px-4 py-2 text-primary">Quantity</th>
-                <th className="border px-4 py-2 text-primary">Rate</th>
+                <th className="border px-4 py-2 text-primary">Rate (Each)</th>
                 </tr>
             </thead>
             <tbody>
@@ -68,7 +68,7 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ product }) => {
             Call now to BUY
         </Button>
         <span className="flex w-full items-center justify-center gap-2 text-center italic text-primary">
-          or call <span onClick={handleCall} className="rounded-full bg-primary/20 p-2 font-bold not-italic text-primary dark:text-white">+1-416-799-1296</span>
+          or call <span onClick={handleCall} className="cursor-pointer rounded-full bg-primary/20 p-2 font-bold not-italic text-primary dark:text-white">+1-416-799-1296</span>
         </span>
         <Accordion className="mt-6" type="single" collapsible>
           <AccordionItem value="item-1">
@@ -78,8 +78,8 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ product }) => {
                 Payment Method
               </>
             </AccordionTrigger>
-            <AccordionContent className="py-2">
-              We are accepting e-transac at this mail <span className="rounded-full bg-primary/20 p-2 font-bold not-italic text-primary dark:text-white">easypaygtagroup@gmail.com</span>
+            <AccordionContent className="my-2">
+              We are accepting e-transac at this mail <span className="cursor-pointer rounded-full bg-primary/20 p-2 font-bold not-italic text-primary dark:text-white">easypaygtagroup@gmail.com</span>
             </AccordionContent>
           </AccordionItem>
         </Accordion>

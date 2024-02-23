@@ -115,32 +115,33 @@ import floatingKeyImage from '../public/floatingKeyImage.png';
 import tapeMeasureImage from '../public/tapeMeasureImage.png';
 import bottleOpenerImage from '../public/bottleOpenerImage.png';
 
-import breezeTumblerImage1 from './path/to/breezeTumblerImage1.png';
-import breezeTumblerImage2 from './path/to/breezeTumblerImage2.png';
-import breezeTumblerImage3 from './path/to/breezeTumblerImage3.png';
-import steelTumblerImage from './path/to/steelTumblerImage.png';
-import europeMugImage from './path/to/europeMugImage.png';
+import breezeTumblerImage1 from '../public/breezeTumblerImage1.png';
+import breezeTumblerImage2 from '../public/breezeTumblerImage2.png';
+import breezeTumblerImage3 from '../public/breezeTumblerImage3.png';
 
-import gripperMultiToolImage1 from './path/to/gripperMultiToolImage1.png';
-import gripperMultiToolImage2 from './path/to/gripperMultiToolImage2.png';
-import gripperMultiToolImage3 from './path/to/gripperMultiToolImage3.png';
+import steelTumblerImage from '../public/steelTumblerImage.png';
+import europeMugImage from '../public/europeMugImage.png';
 
-import survivalRescueKnifeImage1 from './path/to/survivalRescueKnifeImage1.png';
-import survivalRescueKnifeImage2 from './path/to/survivalRescueKnifeImage2.png';
-import survivalRescueKnifeImage3 from './path/to/survivalRescueKnifeImage3.png';
-import survivalRescueKnifeImage4 from './path/to/survivalRescueKnifeImage4.png';
+import gripperMultiToolImage1 from '../public/gripperMultiToolImage1.png';
+import gripperMultiToolImage2 from '../public/gripperMultiToolImage2.png';
+import gripperMultiToolImage3 from '../public/gripperMultiToolImage3.png';
 
-import emergencyFlashlightImage1 from './path/to/emergencyFlashlightImage1.png';
-import emergencyFlashlightImage2 from './path/to/emergencyFlashlightImage2.png';
+import survivalRescueKnifeImage1 from '../public/survivalRescueKnifeImage1.png';
+import survivalRescueKnifeImage2 from '../public/survivalRescueKnifeImage2.png';
+import survivalRescueKnifeImage3 from '../public/survivalRescueKnifeImage3.png';
+import survivalRescueKnifeImage4 from '../public/survivalRescueKnifeImage4.png';
 
-import telescopicFlashlightImage1 from './path/to/telescopicFlashlightImage1.png';
-import telescopicFlashlightImage2 from './path/to/telescopicFlashlightImage2.png';
-import telescopicFlashlightImage3 from './path/to/telescopicFlashlightImage3.png';
+import emergencyFlashlightImage1 from '../public/emergencyFlashlightImage1.png';
+import emergencyFlashlightImage2 from '../public/emergencyFlashlightImage2.png';
 
-import miniMagliteFlashlightImage1 from './path/to/miniMagliteFlashlightImage1.png';
-import miniMagliteFlashlightImage2 from './path/to/miniMagliteFlashlightImage2.png';
-import miniMagliteFlashlightImage3 from './path/to/miniMagliteFlashlightImage3.png';
-import miniMagliteFlashlightImage4 from './path/to/miniMagliteFlashlightImage4.png';
+import telescopicFlashlightImage1 from '../public/telescopicFlashlightImage1.png';
+import telescopicFlashlightImage2 from '../public/telescopicFlashlightImage2.png';
+import telescopicFlashlightImage3 from '../public/telescopicFlashlightImage3.png';
+
+import miniMagliteFlashlightImage1 from '../public/miniMagliteFlashlightImage1.png';
+import miniMagliteFlashlightImage2 from '../public/miniMagliteFlashlightImage2.png';
+import miniMagliteFlashlightImage3 from '../public/miniMagliteFlashlightImage3.png';
+import miniMagliteFlashlightImage4 from '../public/miniMagliteFlashlightImage4.png';
 
 
 import { StaticImageData } from "next/image";
@@ -915,7 +916,7 @@ Size: 25 x 19mm (1" x 3/4").
         category: "apparel",
         subCategory: "tshirts",
         title: "GILDAN 64000 - Men T-shirt",
-        sku: "G640, G64000",
+        sku: "G640,G64000",
         description: `
             The Gildan G640 is one of the most popular products in the Gildan Softstyle® t-shirt range and with good reason! Made from 100% ringspun cotton, this t-shirt is one of the softest and most comfortable options on the market. What’s more, you won’t find bulk deals for the Gildan G640 cheaper than right here at Wordans and with over 20 colour options to choose from in sizes S to 3XL, why not make a wholesale order today?
     
