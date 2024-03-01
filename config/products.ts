@@ -1,4 +1,5 @@
-import hoodPic from "../public/hoodie.png"
+import hoodPic from "../public/hoodPic.png"
+import hoodPic2 from "../public/hoodPic2.png"
 import crewPic from "../public/crew.png"
 import fknife from "../public/fknife.png"
 import fknife_s1 from "../public/fknife_s1.png"
@@ -111,6 +112,9 @@ import penImage from '../public/penImage.png';
 import penImage2 from '../public/penImage2.png';
 import steakKnifeImage from '../public/steakKnifeImage.png';
 import steakKnifeImage2 from '../public/steakKnifeImage2.png';
+import steakKnifeImage3 from '../public/steakKnifeImage3.png';
+import steakKnifeImage4 from '../public/steakKnifeImage4.png';
+
 import floatingKeyImage from '../public/floatingKeyImage.png';
 import tapeMeasureImage from '../public/tapeMeasureImage.png';
 import bottleOpenerImage from '../public/bottleOpenerImage.png';
@@ -143,6 +147,90 @@ import miniMagliteFlashlightImage2 from '../public/miniMagliteFlashlightImage2.p
 import miniMagliteFlashlightImage3 from '../public/miniMagliteFlashlightImage3.png';
 import miniMagliteFlashlightImage4 from '../public/miniMagliteFlashlightImage4.png';
 
+import flintJacketLadiesImage from "../public/flintJacketLadiesImage.png"
+import flintJacketLadiesImage2 from "../public/flintJacketLadiesImage2.png"
+import flintJacketLadiesImage3 from "../public/flintJacketLadiesImage3.png"
+
+import flintJacketMenImage from "../public/flintJacketMenImage.png"
+import flintJacketMenImage2 from "../public/flintJacketMenImage2.png"
+import flintJacketMenImage3 from "../public/flintJacketMenImage3.png"
+import flintJacketMenImage4 from "../public/flintJacketMenImage4.png"
+import flintJacketMenImage5 from "../public/flintJacketMenImage5.png"
+
+import nikeFeatherlightCapImage1 from "../public/nikeFeatherlightCapImage1.png";
+import nikeFeatherlightCapImage2 from "../public/nikeFeatherlightCapImage2.png";
+import nikeFeatherlightCapImage3 from "../public/nikeFeatherlightCapImage3.png";
+import nikeFeatherlightCapImage4 from "../public/nikeFeatherlightCapImage4.png";
+
+import golfBagCoolerImage1 from "../public/golfBagCoolerImage1.png";
+import golfBagCoolerImage2 from "../public/golfBagCoolerImage2.png";
+import golfBagCoolerImage3 from "../public/golfBagCoolerImage3.png";
+import golfBagCoolerImage4 from "../public/golfBagCoolerImage4.png";
+import golfBagCoolerImage5 from "../public/golfBagCoolerImage5.png";
+
+import doubleOldFashionedGlassSetImage1 from "../public/doubleOldFashionedGlassSetImage1.png";
+import doubleOldFashionedGlassSetImage2 from "../public/doubleOldFashionedGlassSetImage2.png";
+
+import contigoVacuumTumbler20ozImage1 from "../public/contigoVacuumTumbler20ozImage1.png";
+import contigoVacuumTumbler20ozImage2 from "../public/contigoVacuumTumbler20ozImage2.png";
+import contigoVacuumTumbler20ozImage3 from "../public/contigoVacuumTumbler20ozImage3.png";
+import contigoVacuumTumbler20ozImage4 from "../public/contigoVacuumTumbler20ozImage4.png";
+import contigoVacuumTumbler20ozImage5 from "../public/contigoVacuumTumbler20ozImage5.png";
+
+import checkerVacuumTumbler16ozImage1 from "../public/checkerVacuumTumbler16ozImage1.png";
+import checkerVacuumTumbler16ozImage2 from "../public/checkerVacuumTumbler16ozImage2.png";
+
+import simpleStainlessTumbler15ozImage1 from "../public/simpleStainlessTumbler15ozImage1.png";
+import simpleStainlessTumbler15ozImage2 from "../public/simpleStainlessTumbler15ozImage2.png";
+import simpleStainlessTumbler15ozImage3 from "../public/simpleStainlessTumbler15ozImage3.png";
+
+import mccoyFlask6ozImage1 from "../public/mccoyFlask6ozImage1.png";
+import mccoyFlask6ozImage2 from "../public/mccoyFlask6ozImage2.png";
+import mccoyFlask6ozImage3 from "../public/mccoyFlask6ozImage3.png";
+
+import brewPubGlassSetImage1 from "../public/brewPubGlassSetImage1.png";
+import brewPubGlassSetImage2 from "../public/brewPubGlassSetImage2.png";
+
+import dynamicMirrorSunglassesImage1 from "../public/dynamicMirrorSunglassesImage1.png";
+
+import beerSteinSetImage1 from "../public/beerSteinSetImage1.png";
+import beerSteinSetImage2 from "../public/beerSteinSetImage2.png";
+import beerSteinSetImage3 from "../public/beerSteinSetImage3.png";
+
+import vintageChicSunglassesImage1 from "../public/vintageChicSunglassesImage1.png";
+import vintageChicSunglassesImage2 from "../public/vintageChicSunglassesImage2.png";
+
+import polarizedSunglassesImage1 from "../public/polarizedSunglassesImage1.png";
+import polarizedSunglassesImage2 from "../public/polarizedSunglassesImage2.png";
+
+import onTheFlyAviatorSunglassesImage1 from "../public/onTheFlyAviatorSunglassesImage1.png";
+import onTheFlyAviatorSunglassesImage2 from "../public/onTheFlyAviatorSunglassesImage2.png";
+import onTheFlyAviatorSunglassesImage3 from "../public/onTheFlyAviatorSunglassesImage3.png";
+import onTheFlyAviatorSunglassesImage4 from "../public/onTheFlyAviatorSunglassesImage4.png";
+
+import valueCoffeeMugImage from "../public/valueCoffeeMugImage.png";
+
+import bambooCuttingBoardImage from "../public/bambooCuttingBoardImage.png";
+import pumaGolfCapImage1 from "../public/pumaGolfCapImage1.png";
+import pumaGolfCapImage2 from "../public/pumaGolfCapImage2.png";
+import pumaGolfCapImage3 from "../public/pumaGolfCapImage3.png";
+
+import jerzeesFleeceHoodImage1 from "../public/jerzeesFleeceHoodImage1.png";
+import jerzeesFleeceHoodImage2 from "../public/jerzeesFleeceHoodImage2.png";
+import jerzeesFleeceHoodImage3 from "../public/jerzeesFleeceHoodImage3.png";
+import championDuffelBagImage from "../public/championDuffelBagImage.png";
+
+import originPoloImage1 from "../public/originPoloImage1.png";
+import originPoloImage2 from "../public/originPoloImage2.png";
+import originPoloImage3 from "../public/originPoloImage3.png";
+import sportPoloShirtImage1 from "../public/sportPoloShirtImage1.png";
+import sportPoloShirtImage2 from "../public/sportPoloShirtImage2.png";
+import sportPoloShirtImage3 from "../public/sportPoloShirtImage3.png";
+
+import zipHoodieImage from "../public/zipHoodieImage.png";
+import crewneckImage from "../public/crewneckImage.png";
+import leggingImage from "../public/leggingImage.png";
+import pulloverHoodieImage from "../public/pulloverHoodieImage.png";
 
 import { StaticImageData } from "next/image";
 
@@ -220,6 +308,7 @@ const productsDatabase: Product[] = [
                 rate:45.99
             },
         ],
+        secondImages: [hoodPic2]
     },
     {
         id,
@@ -1203,7 +1292,7 @@ Size: 25 x 19mm (1" x 3/4").
             { quantity: 288, rate: 27.73 },
             { quantity: 576, rate: 24.17 },
         ],
-        secondImages: [steakKnifeImage2],
+        secondImages: [steakKnifeImage2, steakKnifeImage3, steakKnifeImage4],
     },
     {
         id,
@@ -1431,8 +1520,651 @@ Size: 25 x 19mm (1" x 3/4").
         ],
         secondImages: [miniMagliteFlashlightImage2, miniMagliteFlashlightImage3, miniMagliteFlashlightImage4],
     },
-    
-    
+    {
+        id,
+        category: "apparel",
+        subCategory: "jackets",
+        title: "Flint Lightweight Jacket - Ladies' - Embroidered",
+        sku: "4SkuC122467LE",
+        description: `
+            This weather-ready, wind-resistant jacket is made with a 600 mm water repellent coating on its 100%, 4 oz/lnyd polyester 240T woven fabric. 
+            Use the roll-away hood with elasticized opening to further protect yourself from the elements. 
+            Designed with your comfort and mobility in mind, this jacket has ergonomic sleeves and an elastic drawcord at the hem with an interior cordlock.
+            Fabric: 4 oz/lnyd polyester 240T woven fabric
+            600 mm water repellent coating
+            Wind resistant
+            Roll-away hood with elasticized opening
+            Upper invisible zipper pocket
+            Lower invisible zipper pockets
+            Hem with elastic drawcord and interior cordlock
+            Elasticized cuffs with thumb exit
+            Ergonomic sleeves
+            Shaped seams
+            Tapered waist
+            Centre front exposed contrast reverse coil zipper
+            Interior zipper flap
+            Chin guard
+            Diminishing reflective piping
+            Contrast bartacks
+            Easy grip invisible zipper pulls
+            Back vent
+            Hanger loop
+        `,
+        image: flintJacketLadiesImage,
+        price: [
+            { quantity: "1-71", rate: 119.39 },
+            { quantity: 144, rate: 100.45 }
+        ],
+        secondImages: [flintJacketLadiesImage2, flintJacketLadiesImage3]
+    },
+    {
+        id,
+        category: "apparel",
+        subCategory: "jackets",
+        title: "Flint Lightweight Jacket - Men's - TE Transfer",
+        sku: "4SkuC122467MTE",
+        description: `
+            This weather-ready, wind-resistant jacket is made with a 600 mm water repellent coating on its 100%, 4 oz/lnyd polyester 240T woven fabric. 
+            Use the roll-away hood with elasticized opening to further protect yourself from the elements. 
+            Designed with your comfort and mobility in mind, this jacket has ergonomic sleeves and an elastic drawcord at the hem with an interior cordlock.
+            Fabric: 4 oz/lnyd polyester 240T woven fabric
+            600 mm water repellent coating
+            Wind resistant
+            Roll-away hood with elasticized opening
+            Upper invisible zipper pocket
+            Lower invisible zipper pockets
+            Hem with elastic drawcord and interior cordlock
+            Elasticized cuffs with thumb exit
+            Ergonomic sleeves
+            Centre front exposed contrast reverse coil zipper
+            Interior zipper flap
+            Chin guard
+            Diminishing reflective piping
+            Contrast bartacks
+            Easy grip invisible zipper pulls
+            Back vent
+            Hanger loop
+        `,
+        image: flintJacketMenImage,
+        price: [
+            { quantity: "1-71", rate: 119.39 },
+            { quantity: 144, rate: 100.45 }
+        ],
+        secondImages: [flintJacketMenImage2, flintJacketMenImage3, flintJacketMenImage4, flintJacketMenImage5]
+    },
+    {
+        id,
+        category: "apparel",
+        subCategory: "ballcaps",
+        title: "Nike Featherlight Cap",
+        sku: "4SkuC164183",
+        description: `
+            These Nike® caps are solid additions to employee or team uniforms. 
+            Moisture-wicking fabric helps to keep them cool when the weather heats up.
+            Fabric: Polyester twill
+            6 panel construction
+            Low profile fit
+            Unstructured crown
+            Curved visor
+            Moisture-wicking
+            Ventilated panels
+            Nike® logo on the left side of the crown
+            Nike® branding located on the closure strap
+            Adjustable hook-and-loop closure
+            Size: One size fits most.
+        `,
+        image: nikeFeatherlightCapImage1,
+        price: [
+            { quantity: "12-35", rate: 59.99 },
+            { quantity: "36-72", rate: 55.45 },
+            { quantity: 144, rate: 49.87 },
+        ],
+        secondImages: [nikeFeatherlightCapImage2, nikeFeatherlightCapImage3, nikeFeatherlightCapImage4],
+    },
+    {
+        id,
+        category: "homeAndlifestyle",
+        subCategory: "golf",
+        title: "Golf Bag Cooler",
+        sku: "4SkuC105116",
+        description: `
+            This small custom cooler is shaped just like a mini golf bag. 
+            Mesh pockets and front zippered pocket provide additional storage. 
+            Perfect giveaway for your golf outing, school sports team, or company picnic.
+            Outer material: 600D polyester
+            Foam insulation
+            Heat-sealed, leak-resistant PEVA lining
+            Zippered main compartment
+            Zippered front pocket
+            Mesh side pocket
+            Adjustable shoulder strap
+            Plastic clip attachment for clipping onto the golf bag
+            Holds 6 standard 12oz cans
+            Size: 279 x 228 x 165mm (11" H x 9 W x 6-1/2" D)
+        `,
+        image: golfBagCoolerImage1,
+        price: [
+            { quantity: "1-11", rate: 44.39 },
+            { quantity: "12-35", rate: 42.45 },
+            { quantity: "36-71", rate: 39.87 },
+            { quantity: 72, rate: 35.10 },
+        ],
+        secondImages: [golfBagCoolerImage2, golfBagCoolerImage3, golfBagCoolerImage4, golfBagCoolerImage5],
+    },
+    {
+        id,
+        category: "drinkware",
+        subCategory: "glasses",
+        title: "Double Old-Fashioned Glass Set",
+        sku: "4SkuC103513SET",
+        description: `
+            This imprinted double old-fashioned glass set will give your logo a classic appeal. 
+            The thick, heavy base makes these glasses a sturdy promoter with long-lasting durability. 
+            Set includes four clear 14-oz. double old-fashioned glasses packaged in a "Thank You" printed.
+            Material: Glass
+            Thick, heavy base
+            Set of 4 glasses packaged in "Thank You" kraft-colored gift box
+            Capacity: 414 mL (14 oz)
+        `,
+        image: doubleOldFashionedGlassSetImage1,
+        price: [
+            { quantity: "1-18", rate: 39.84 },
+            { quantity: "19-35", rate: 38.27 },
+            { quantity: 72, rate: 35.84 },
+        ],
+        secondImages: [doubleOldFashionedGlassSetImage2],
+    },
+    {
+        id,
+        category: "drinkware",
+        subCategory: "tumblers",
+        title: "Contigo Byron 2.0 Vacuum Tumbler - 20 oz.",
+        sku: "4SkuC15976520",
+        description: `
+            This eye-catching Contigo tumbler features a vacuum-insulated interior for temperature retention 
+            and SnapSeal lid for ease of taking it on the go.
+            Tumbler: Double-wall stainless steel
+            Lid: #5 PP plastic
+            Band: Silicone
+            Insulation: Vacuum
+            Closure: Screw-on lid with SnapSeal opening
+            Textured band
+            Stainless bottom accent on all colors
+            Contigo brand logo debossed on lid along with printed on the front and back of the tumbler
+            Capacity: 591 mL (20 oz)
+        `,
+        image: contigoVacuumTumbler20ozImage1,
+        price: [
+            { quantity: 24, rate: 48.84 },
+            { quantity: 48, rate: 46.27 },
+            { quantity: 100, rate: 42.84 },
+            { quantity: 144, rate: 39.52 },
+        ],
+        secondImages: [contigoVacuumTumbler20ozImage2, contigoVacuumTumbler20ozImage3, contigoVacuumTumbler20ozImage4, contigoVacuumTumbler20ozImage5],
+    },
+    {
+        id,
+        category: "drinkware",
+        subCategory: "tumblers",
+        title: "Checker Vacuum Tumbler - 16 oz. - Laser Engraved",
+        sku: "4SkuC121412L",
+        description: `
+            This double-walled stainless steel vacuum tumbler will be the first thing they reach for every morning.
+            Tumbler: Double-wall stainless steel
+            Lid: #5 PP plastic
+            Band: Silicone
+            Insulation: Vacuum
+            Screw-on lid with push button closure
+            Textured band
+            Capacity: 473 mL (16 oz)
+        `,
+        image: checkerVacuumTumbler16ozImage1,
+        price: [
+            { quantity: "1-23", rate: 35.34 },
+            { quantity: "24-47", rate: 33.27 },
+            { quantity: 100, rate: 30.84 },
+        ],
+        secondImages: [checkerVacuumTumbler16ozImage2],
+    },
+    {
+        id,
+        category: "drinkware",
+        subCategory: "tumblers",
+        title: "Simple Stainless Tumbler - 15 oz.",
+        sku: "4SkuC12343724HR",
+        description: `
+            This simple tumbler will impress them each time they fill this mug with coffee or tea
+            Tumbler: Stainless steel outer with #5 PP plastic inner
+            Closure: Push-on lid with slide opening
+            Capacity: 444 mL (15 oz)
+        `,
+        image: simpleStainlessTumbler15ozImage1,
+        price: [
+            { quantity: "48-71", rate: 23.84 },
+            { quantity: "72-143", rate: 21.27 },
+            { quantity: 288, rate: 18.84 },
+        ],
+        secondImages: [simpleStainlessTumbler15ozImage2, simpleStainlessTumbler15ozImage3],
+    },
+    {
+        id,
+        category: "drinkware",
+        subCategory: "flasks",
+        title: "McCoy Flask - 6 oz.",
+        sku: "4SkuC160152",
+        description: `
+            This custom flask is made from stainless steel for long-lasting use.
+            Bottle: Single-wall stainless steel
+            Lid: Stainless steel
+            Closure: Screw-on lid with a hinged attachment piece
+            Includes: Leatherette band with white accent stitching
+            Capacity: 177 mL (6 oz)
+        `,
+        image: mccoyFlask6ozImage1,
+        price: [
+            { quantity: 36, rate: 27.87 },
+            { quantity: 49, rate: 26.27 },
+            { quantity: 100, rate: 24.84 },
+        ],
+        secondImages: [mccoyFlask6ozImage2, mccoyFlask6ozImage3],
+    },
+    {
+        id,
+        category: "drinkware",
+        subCategory: "glasses",
+        title: "Brew Pub Glass Set",
+        sku: "4SkuC128425SET",
+        description: `
+            Say thanks with this handsome 4-piece gift set! These custom glasses are ideal for whatever your favourite beverage may be. Ideal for entertaining or everyday enjoyment! The set is presented in a kraft color gift box with "thank you" message in many languages printed in the color of your choice
+            Material: Glass
+            Set of 4 glasses in "Thank You" cardboard gift box
+            Capacity: 473 mL (16 oz)
+        `,
+        image: brewPubGlassSetImage1,
+        price: [
+            { quantity: "1-18", rate: 35.84 },
+            { quantity: "19-35", rate: 33.27 },
+            { quantity: 72, rate: 30.84 },
+        ],
+        secondImages: [brewPubGlassSetImage2],
+    },
+    {
+        id,
+        category: "apparel",
+        subCategory: "sunglasses",
+        title: "Dynamic Mirror Sunglasses",
+        sku: "4SkuC153981",
+        description: `
+            Imprinted sunglasses feature durable frames and lenses. Mirrored lenses and coloured frames for added style
+            Frame Material: Plastic/Acrylic blend
+            Lens Material: Plastic
+            Impact-resistant lenses with tint and mirror finish
+            UV400 Protection
+            Size: One size fits most
+        `,
+        image: dynamicMirrorSunglassesImage1,
+        price: [
+            { quantity: "1-35", rate: 18.84 },
+            { quantity: "36-71", rate: 17.27 },
+            { quantity: 72, rate: 14.84 },
+        ],
+    },
+    {
+        id,
+        category: "drinkware",
+        subCategory: "glasses",
+        title: "Beer Stein Set - 12 oz.",
+        sku: "4SkuC11034912SET",
+        description: `
+            Set of four weighted-bottom clear glass mugs feature diamond design bases. Oversized glass handles with textured thumb rests ensure a more comfortable hold. Perfect addition to any home bar! Packaged in a 'Thank You' gift box for each set.
+            Material: Glass
+            Weighted bottom, diamond design base
+            Set of 4 beer steins in "Thank You" printed gift box
+            Handle: Oversized with thumb rest
+            Capacity: 355mL (12 oz)
+        `,
+        image: beerSteinSetImage1,
+        price: [
+            { quantity: "1-18", rate: 35.84 },
+            { quantity: "19-35", rate: 33.27 },
+            { quantity: 72, rate: 29.84 },
+        ],
+        secondImages: [beerSteinSetImage2, beerSteinSetImage3],
+    },
+    {
+        id,
+        category: "apparel",
+        subCategory: "sunglasses",
+        title: "Vintage Chic Sunglasses",
+        sku: "4SkuC121113",
+        description: `
+            The vintage appearance gives the glasses an old-school, stylish look with the small metal details that adorn the frames on both sides of the face and connect the bridge.
+            Frame Material: Plastic/Acrylic blend
+            Lens Material: Plastic
+            Impact-resistant with black tint
+            UV400 Protection
+            Size: One size fits most
+        `,
+        image: vintageChicSunglassesImage1,
+        price: [
+            { quantity: "1-11", rate: 28.84 },
+            { quantity: "12-35", rate: 27.27 },
+            { quantity: "36-72", rate: 23.84 },
+        ],
+        secondImages: [vintageChicSunglassesImage2],
+    },
+    {
+        id,
+        category: "apparel",
+        subCategory: "sunglasses",
+        title: "Polarized Sunglasses",
+        sku: "4SkuC139834",
+        description: `
+            These polarized sunglasses reduce glare and provide clearer imagery
+            Frame Material: Plastic/Acrylic blend
+            Lens Material: Plastic
+            Impact-resistant lenses with black tint
+            UV400 Protection
+            Polarized lenses
+            Size: One size fits most
+        `,
+        image: polarizedSunglassesImage1,
+        price: [
+            { quantity: "1-23", rate: 19.84 },
+            { quantity: "24-47", rate: 17.27 },
+            { quantity: "48-144", rate: 16.84 },
+        ],
+        secondImages: [polarizedSunglassesImage2],
+    },
+    {
+        id,
+        category: "apparel",
+        subCategory: "sunglasses",
+        title: "On the Fly Aviator Sunglasses - Gradient Lens",
+        sku: "4SkuC134050GL",
+        description: `
+            Fashionable aviator style sunglasses offer metal frames and gradient colored lenses.
+            Due to the nature of mirrored lenses, color will vary under different lighting and at different angles.
+        `,
+        image: onTheFlyAviatorSunglassesImage1,
+        price: [
+            { quantity: "1-35", rate: 29.99 },
+            { quantity: "36-71", rate: 27.27 },
+            { quantity: "72-144", rate: 24.99 },
+        ],
+        secondImages: [
+            onTheFlyAviatorSunglassesImage2,
+            onTheFlyAviatorSunglassesImage3,
+            onTheFlyAviatorSunglassesImage4,
+        ],
+    },
+    {
+        id,
+        category: "drinkware",
+        subCategory: "coffeemugs",
+        title: "Value Coffee Mug - 11 oz. - White",
+        sku: "4SkuC113084W",
+        description: `
+            This ceramic custom coffee mug features a large, ergonomic C-shaped handle with a glossy finish.
+            Value-priced mugs are great for office lunchrooms, giveaways and more.
+        `,
+        image: valueCoffeeMugImage,
+        price: [
+            { quantity: 72, rate: 10.84 },
+            { quantity: 144, rate: 8.87 },
+        ],
+    },
+    {
+        id,
+        category: "homeAndlifestyle",
+        subCategory: "cuttingboards",
+        title: "Bamboo Cutting Board - Large",
+        sku: "4SkuC149134L",
+        description: `
+            Easily chop, dice or mince vegetables, cheese and meats without taking up too much counter space.
+            Material: Bamboo
+            Two-tone look
+            Size: 304 x 228 x 12mm thick (12" x 9" x .5")
+        `,
+        image: bambooCuttingBoardImage,
+        price: [
+            { quantity: "1-23", rate: 42.66 },
+            { quantity: "24-35", rate: 40.99 },
+            { quantity: "36-72", rate: 38.63 },
+        ],
+    },
+    {
+        id,
+        category: "apparel",
+        subCategory: "ballcaps",
+        title: "Puma Golf WSku-22673 - Adult Pounce Adjustable Cap",
+        sku: "4Sku22673",
+        description: `
+            PUMA GOLF 22673
+            100% polyester; moisture-wicking; performance sweatband; pre-curve, 6 panel cap; hair-friendly velcro; adjustable strap; silicone cat logo on back
+        `,
+        image: pumaGolfCapImage1,
+        price: [
+            { quantity: "1-11", rate: 62.26 },
+            { quantity: "12-35", rate: 60.99 },
+            { quantity: "36-71", rate: 57.63 },
+            { quantity: "72-144", rate: 55.49 },
+        ],
+        secondImages: [pumaGolfCapImage2, pumaGolfCapImage3],
+    },
+    {
+        id,
+        category: "apparel",
+        subCategory: "hoodies",
+        title: "JerzeesWSku-996 - Nublend® Fleece Pullover Hood",
+        sku: "WSku996",
+        description: `
+            - Virtually pill-free with a high-stitch density for a smooth printing canvas
+            - Double-needle cover seaming on neck, armholes and waistband
+            - 1x1 ribbed cuffs and waistband
+            - Concealed seam on cuffs
+            - Pouch pocket; Double-ply hood with grommets and matching drawcord
+            - Seamless body with set-in sleeves
+            
+            Material: Cotton and polyester
+            Weight: 8 oz.
+            Color: Grey, pink, purple, navy, oxford, and more.
+        `,
+        image: jerzeesFleeceHoodImage1,
+        price: [
+            { quantity: "1-11", rate: 34.66 },
+            { quantity: "12-35", rate: 32.99 },
+            { quantity: "36-71", rate: 31.63 },
+            { quantity: "72-144", rate: 29.49 },
+        ],
+        secondImages: [jerzeesFleeceHoodImage2, jerzeesFleeceHoodImage3],
+    },
+    {
+        id,
+        category: "tools",
+        subCategory: "bags",
+        title: "WSku-CV21427 - Center Duffel Bag",
+        sku: "WSkuCV21427",
+        description: `
+            Whether you are off to a game or trip, this bag is designed to keep you organized on the go.
+            - Webbing Handles
+            - Padded Bottom Panel
+            - Front Slip Pocket
+            - Side Zip Pocket
+            - Interior Hanging Zip Pocket
+            - Locker Loop
+            - High density Champion script print, embroidery
+            - Dimensions: 24" x 12" x 10"
+        `,
+        image: championDuffelBagImage,
+        price: [
+            { quantity: "1-49", rate: 59.66 },
+            { quantity: "50-100", rate: 55.99 },
+        ],
+    },
+    {
+        id,
+        category: "apparel",
+        subCategory: "poloshirts",
+        title: "WSku-365 78181 - Origin Tm Ladies Performance Pique Polo",
+        sku: "WSku36578181",
+        description: `
+            Look and feel crisp and classy in your Origin TM Ladies' Performance Pique Polo. 
+            Made from an optimal, performance 100% polyester pique material, 
+            this easy-to-care-for polo shirt is equipped with moisture-wicking, antimicrobial, 
+            and UV protection performance to keep you feeling your best throughout its wear. 
+            Ideal for work, the outdoors, travel, vacation time, running errands, or simply relaxing at home, 
+            this versatile polo will definitely become a go-to piece in your closet. 
+            Additional features that are sure to please include a matching flat knit collar, 
+            a heat seal label, as well as embroidery-friendly superior screen printing quality. 
+            This model comes in a fun variety of 11 bold, neutral, and bright colors. 
+            Available in the following sizes: XS, S, M, L, XL, 2XL, and 3XL.
+        `,
+        image: originPoloImage1,
+        price: [
+            { quantity: "1-11", rate: 44.66 },
+            { quantity: "12-35", rate: 42.99 },
+            { quantity: "36-71", rate: 39.63 },
+            { quantity: "72-144", rate: 37.49 },
+        ],
+        secondImages: [originPoloImage2, originPoloImage3]
+    },
+    {
+        id,
+        category: "apparel",
+        subCategory: "poloshirts",
+        title: "WSku-8800 - Adult Sport Polo Shirt",
+        sku: "WSku8800",
+        description: `
+            - Dry blend moisture-wicking fabric.
+            - Three wood-tone buttons on a clean finished placket.
+            - Contoured welt collar and cuffs.
+            - Double-stitched seams.
+            - Quarter-turned body.
+
+            Material: 50% Cotton / 50% polyester
+            Weight: 9.4 oz.
+            Color: Black, Red, Royal, Navy, Gravel, and more.
+            Reference: Gildan 8800
+        `,
+        image: sportPoloShirtImage1,
+        price: [
+            { quantity: "1-11", rate: 44.66 },
+            { quantity: "12-35", rate: 42.99 },
+            { quantity: "36-71", rate: 39.63 },
+            { quantity: "72-144", rate: 34.49 },
+        ],
+        secondImages: [sportPoloShirtImage2, sportPoloShirtImage3]
+    },
+    {
+        id,
+        category: "apparel",
+        subCategory: "hoodies",
+        title: "WSku-18600 - Heavy Blend™ Full-Zip Hooded Sweatshirt",
+        sku: "WSku18600",
+        description: `
+            Features:
+            - Fit: Classic Fit
+            - Fabric: 8.0 oz/sq yd 50% Cotton / 50% Polyester
+            - Preshrunk fleece knit
+            - Air jet yarns = softer feel and reduced pilling
+            - Unlined hood with colour-matched drawcord
+            - Satin label
+            - Metal zipper
+            - Overlapped fabric across zipper allows full front printing
+            - Pouch pockets
+            - Double-needle stitching at waistband and cuffs
+            - 1 x 1 rib with spandex
+            - Quarter-turned to eliminate centre crease
+            
+            Special Features:
+            - Family Sizing - This Gildan style is offered in Adult, Ladies, and Youth sizing
+        `,
+        image: zipHoodieImage,
+        price: [
+            { quantity: "1-11", rate: 74.66 },
+            { quantity: "12-35", rate: 71.99 },
+            { quantity: "36-71", rate: 69.63 },
+            { quantity: "72-144", rate: 64.49 },
+        ],
+    },
+    {
+        id,
+        category: "apparel",
+        subCategory: "crewneck",
+        title: "Fruit of the Loom WSku-SF45R - Sofspun® Crewneck T-Shirt",
+        sku: "WSkuSF45R",
+        description: `
+            - Breathable and lightweight fabric with superior softness
+            - Tear away label
+            - Athletic Heather is 90% cotton, 10% polyester
+            - Contemporary silhouette slightly fitted through the chest and sleeves
+            - Narrow, set-in 1x1 rib collar with a clean neckline
+            - Shoulder-to-shoulder taping
+            - Double-needle hemmed sleeves and bottom
+            
+            Material: Cotton and Polyester
+            Weight: 4 oz.
+            Color: Athletic Heather, Black, Cardinal, Charcoal Grey, Citrus Green, Clover, Cyber Pink, Fiery Red, Gold, J. Navy, Light Blue, Orange Sherbet, Purple, Royal Blue, Scuba Blue, White, Wild Plum
+        `,
+        image: crewneckImage,
+        price: [
+            { quantity: "1-11", rate: 25.66 },
+            { quantity: "12-35", rate: 24.99 },
+            { quantity: "36-71", rate: 22.63 },
+            { quantity: "72-144", rate: 19.49 },
+        ],
+    },
+    {
+        id,
+        category: "apparel",
+        subCategory: "leggings",
+        title: "Champion WSku-B940 - WOMEN'S PERFORMANCE LEGGING",
+        sku: "WSkuB940",
+        description: `
+            - 7.4 oz, 88% polyester/12% spandex
+            - Wicking for moisture management
+            - Stretch for ease of movement
+            - Reflective details
+            - Full length
+            - Fitted
+            - Championｮ "C" on lower left leg and Champion script on center back waist
+            - Sizes: S - 2X
+        `,
+        image: leggingImage,
+        price: [
+            { quantity: "1-11", rate: 48.66 },
+            { quantity: "12-23", rate: 46.99 },
+            { quantity: "24-35", rate: 44.63 },
+            { quantity: "36-72", rate: 42.65 },
+        ],
+    },
+    {
+        id,
+        category: "apparel",
+        subCategory: "hoodies",
+        title: "WSku 82130 - Supercotton Pullover Hood",
+        sku: "WSku82130",
+        description: `
+            - Two-ply hood with matching tipped and knotted drawcord
+            - Double-needle stitched collar, armholes, and waistband
+            - 1x1 ribbed cuffs and waistband with spandex
+            - Concealed seam on cuffs
+            - Tag-less label
+            - Pouch pocket
+            
+            Material: 70/30 Cotton/Polyester Blend
+            Weight: 10 oz.
+            Color: Navy, Black, True Red, Forest Green, and more.
+        `,
+        image: pulloverHoodieImage,
+        price: [
+            { quantity: "1-11", rate: 49.66 },
+            { quantity: "12-35", rate: 44.99 },
+            { quantity: "36-71", rate: 42.63 },
+            { quantity: "72-144", rate: 39.49 },
+        ],
+    }
 ]
 
 
@@ -1443,6 +2175,3 @@ export const products = generateProductIds(productsDatabase);
 
 
 
-
-
-  

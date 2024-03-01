@@ -17,12 +17,28 @@ export const productCategory: ProductCategory[] = [
           link: "/categories/apparel/"
         },
         {
+          label: "Sun Glasses",
+          link: "/categories/apparel/sunglasses"
+        },
+        {
           label: "Hoodies",
           link: "/categories/apparel/hoodies"
         },
         {
           label: "Crewneck",
           link: "/categories/apparel/crewneck"
+        },
+        {
+          label: "Polo Shirts",
+          link: "/categories/apparel/poloshirts"
+        },
+        {
+          label: "Leggings",
+          link: "/categories/apparel/leggings"
+        },
+        {
+          label: "Jackets",
+          link: "/categories/apparel/jackets"
         },
         {
           label: "T-Shirts",
@@ -56,6 +72,10 @@ export const productCategory: ProductCategory[] = [
         {
           label: "Glasses",
           link: "/categories/drinkware/glasses"
+        },
+        {
+          label: "Flasks",
+          link: "/categories/drinkware/flasks"
         },
         {
           label: "Wine",
