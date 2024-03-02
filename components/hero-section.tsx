@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 export const Header = () => {
     return (
@@ -24,9 +25,11 @@ export const Header = () => {
               </p>
             </div>
             <div className="flex flex-col items-center md:flex-row">
-                <Button className="dark:text-white" size={"lg"}>
-                    Explore Now
-                </Button>
+                <Link href="/categories/apparel">
+                  <Button className="dark:text-white" size={"lg"}>
+                      Explore Now
+                  </Button>
+                </Link>
             </div>
           </div>
         </div>
@@ -36,7 +39,7 @@ export const Header = () => {
             width={500}
             quality={100}
             priority
-            className="h-56 w-full rounded object-cover sm:h-96 lg:h-fit lg:rounded-none lg:shadow-none"
+            className="h-56 w-full rounded object-cover sm:h-96 lg:h-full lg:rounded-none lg:shadow-none"
             src="/hero-gta.svg"
             alt="hero"
           />
