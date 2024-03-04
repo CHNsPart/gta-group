@@ -2475,7 +2475,7 @@ Size: 25 x 19mm (1" x 3/4").
         category: "tools",
         subCategory: "others",
         title: "MANICURE SET",
-        sku: "MS-002",
+        sku: "MSKuMS002",
         description:
             "Manicure set in faux brown leather case. Set includes scissors, nail file, 2 nail clippers, Tweezer, cuticle pusher. 4 1/4\" W x 2 3/4\" H",
         image: ManicureSetImage1,
@@ -2492,7 +2492,7 @@ Size: 25 x 19mm (1" x 3/4").
       category: "homeAndlifestyle",
       subCategory: "cuttingboards",
       title: "Cheese Board & 3 Piece Utensil Set",
-      sku: "CB-005",
+      sku: "MSKuCB005",
       description:
         "Gift boxed Cheese-board with serving surface in-laid 3 wood handled utensils including a knife, fork, spreader, and slicer. Not dishwasher safe. 12 1/2\" W x 7 1/4\" H x 1/2\" D",
       image: CheeseBoardUtensilSetImage1,
