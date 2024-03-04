@@ -34,7 +34,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => (
       </Badge>
       <h3 className="title-font mb-1 text-xs tracking-widest text-gray-500">{product.sku}</h3>
       <h2 className="title-font text-lg font-medium text-primary">{product.title}</h2>
-      <p className="mt-1 font-bold">{"From $" + product.price[0].rate}</p>
+      <p className="mt-1 font-bold">{"From $" + product.price[product.price.length-1].rate}</p>
     </div>
   </div>
 );

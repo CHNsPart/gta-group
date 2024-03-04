@@ -1011,7 +1011,7 @@ Size: 25 x 19mm (1" x 3/4").
     {
         id,
         category: "safetygear",
-        subCategory: "eyewear",
+        subCategory: "safetyglasses",
         title: "Lightweight Safety Glasses",
         sku: "4SkuC161874",
         description: `
@@ -1273,8 +1273,8 @@ Size: 25 x 19mm (1" x 3/4").
         price: [
             { quantity: 25, rate: 18.99 },
             { quantity: 50, rate: 18.28 },
-            { quantity: 1000, rate: 16.57 },
-            { quantity: 2000, rate: 12.46 },
+            { quantity: 72, rate: 16.57 },
+            { quantity: 144, rate: 12.46 },
         ],
     },
     {
@@ -1311,18 +1311,18 @@ Size: 25 x 19mm (1" x 3/4").
     {
         id,
         category: "homeAndlifestyle",
-        subCategory: "Kitchenware",
+        subCategory: "kitchenware",
         title: "Rosewood Steak Knife Set of 6",
         sku: "MSkuK010ROSEWOOD",
         description: "Gift boxed 6 piece steak knife set w/ rosewood handles and stainless steel serrated blades. 9 1/2\" L x 3/4\" W Color may vary also in Maple. Beautiful knives",
-        image: steakKnifeImage,
+        image: steakKnifeImage3,
         price: [
             { quantity: 24, rate: 34.99 },
             { quantity: 144, rate: 32.60 },
             { quantity: 288, rate: 27.73 },
             { quantity: 576, rate: 24.17 },
         ],
-        secondImages: [steakKnifeImage2, steakKnifeImage3, steakKnifeImage4],
+        secondImages: [steakKnifeImage2, steakKnifeImage, steakKnifeImage4],
     },
     {
         id,
@@ -2034,6 +2034,52 @@ Size: 25 x 19mm (1" x 3/4").
         id,
         category: "tools",
         subCategory: "bags",
+        title: "WSku-CV21427 - Center Duffel Bag",
+        sku: "WSkuCV21427",
+        description: `
+            Whether you are off to a game or trip, this bag is designed to keep you organized on the go.
+            - Webbing Handles
+            - Padded Bottom Panel
+            - Front Slip Pocket
+            - Side Zip Pocket
+            - Interior Hanging Zip Pocket
+            - Locker Loop
+            - High density Champion script print, embroidery
+            - Dimensions: 24" x 12" x 10"
+        `,
+        image: championDuffelBagImage,
+        price: [
+            { quantity: "1-49", rate: 59.66 },
+            { quantity: "50-100", rate: 55.99 },
+        ],
+    },
+    {
+        id,
+        category: "homeAndlifestyle",
+        subCategory: "golf",
+        title: "WSku-CV21427 - Center Duffel Bag",
+        sku: "WSkuCV21427",
+        description: `
+            Whether you are off to a game or trip, this bag is designed to keep you organized on the go.
+            - Webbing Handles
+            - Padded Bottom Panel
+            - Front Slip Pocket
+            - Side Zip Pocket
+            - Interior Hanging Zip Pocket
+            - Locker Loop
+            - High density Champion script print, embroidery
+            - Dimensions: 24" x 12" x 10"
+        `,
+        image: championDuffelBagImage,
+        price: [
+            { quantity: "1-49", rate: 59.66 },
+            { quantity: "50-100", rate: 55.99 },
+        ],
+    },
+    {
+        id,
+        category: "homeAndlifestyle",
+        subCategory: "travel",
         title: "WSku-CV21427 - Center Duffel Bag",
         sku: "WSkuCV21427",
         description: `
