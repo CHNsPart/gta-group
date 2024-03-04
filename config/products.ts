@@ -1425,7 +1425,7 @@ Size: 25 x 19mm (1" x 3/4").
     {
         id,
         category: "tools",
-        subCategory: "others",
+        subCategory: "knives",
         title: "Gripper Multi-Tool",
         sku: "4SkuC117946",
         description: `
