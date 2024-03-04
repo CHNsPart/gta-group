@@ -40,7 +40,7 @@ export function CarouselPlugin() {
       <CarouselContent>
         {images.map((image, index) => (
           <CarouselItem key={index}>
-            <div className="p-1">
+            <div>
               <Card>
                 <CardContent className="flex aspect-auto items-center justify-center p-6">
 
@@ -55,7 +55,7 @@ export function CarouselPlugin() {
 
                 </CardContent>
               </Card>
-              <span className="text-center text-lg">Price From: {image.price}</span>
+              <span className="text-center text-lg text-black">Price From: {image.price}</span>
             </div>
           </CarouselItem>
         ))}
