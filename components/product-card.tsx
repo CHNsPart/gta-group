@@ -24,7 +24,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => (
       <Image
         quality={100}
         alt={product.title}
-        className={product.subCategory==="hoodies" || "poloshirts" || "poloshirts" || "tshirts" ? `block size-full object-cover object-top transition-all hover:scale-105` : `block size-full object-cover object-center transition-all hover:scale-105`}
+        className={product.subCategory==="hoodies" || "poloshirts" || "crewneck" || "tshirts" ? `block size-full object-cover object-top transition-all hover:scale-105` : `block size-full object-cover object-center transition-all hover:scale-105`}
         src={product.image}
       />
     </a>
