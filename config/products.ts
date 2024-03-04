@@ -833,7 +833,7 @@ Size: 25 x 19mm (1" x 3/4").
         category: "tools",
         subCategory: "pens",
         title: "Maxfield Stylus/Litewell Gift Set",
-        sku: "Amster#85792",
+        sku: "Amster85792",
         description: `
             We took two customer favorites, the Maxfield Stylus and the Litewell keychain and paired them together for an irresistible promotion. The pen features a comfort-inlay grip and a stylus that can be used with any smartphone or touchscreen device. The Litewell keychain features push button activating LED lights. Both pieces come in a nice gift box and can be professionally engraved with your custom message.
         `,
@@ -1239,10 +1239,10 @@ Size: 25 x 19mm (1" x 3/4").
         description: "These coasters are perfect for promoting your restaurant, hotel, or as giveaways at your next tradeshow.",
         image: coasterImage1,
         price: [
-            { quantity: 100, rate: 12.48 },
-            { quantity: 200, rate: 11.28 },
-            { quantity: 288, rate: 10.57 },
-            { quantity: 500, rate: 9.46 },
+            { quantity: 25, rate: 39.95 },
+            { quantity: 50, rate: 37.28 },
+            { quantity: 72, rate: 35.57 },
+            { quantity: 144, rate: 29.99 },
         ],
         secondImages: [coasterImage2],
     },
