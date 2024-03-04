@@ -232,6 +232,32 @@ import crewneckImage from "../public/crewneckImage.png";
 import leggingImage from "../public/leggingImage.png";
 import pulloverHoodieImage from "../public/pulloverHoodieImage.png";
 
+import CamouflageImage1 from "../public/CamouflageImage1.png";
+
+import RosewoodPocketKnifeImage1 from "../public/RosewoodPocketKnifeImage1.png";
+import RosewoodPocketKnifeImage2 from "../public/RosewoodPocketKnifeImage2.png";
+
+import BurmeseSportingKnifeImage1 from "../public/BurmeseSportingKnifeImage1.png";
+import BurmeseSportingKnifeImage2 from "../public/BurmeseSportingKnifeImage2.png";
+
+import BBQToolAndMittSetImage1 from "../public/BBQToolAndMittSetImage1.png"
+import BBQToolAndMittSetImage2 from "../public/BBQToolAndMittSetImage2.png"
+
+import BambooCheeseBoardImage1 from "../public/BambooCheeseBoardImage1.png";
+
+import WoodBBQTongsImage1 from "../public/WoodBBQTongsImage1.png";
+
+import ThermosImage1 from "../public/ThermosImage1.png";
+import ThermosImage2 from "../public/ThermosImage2.png";
+
+import BBQSetImage1 from "../public/BBQSetImage1.png";
+
+import ManicureSetImage1 from "../public/ManicureSetImage1.png";
+import ManicureSetImage2 from "../public/ManicureSetImage2.png";
+
+import CheeseBoardUtensilSetImage1 from "../public/CheeseBoardUtensilSetImage1.png";
+
+
 import { StaticImageData } from "next/image";
 
   const id = 1; 
@@ -317,9 +343,6 @@ const productsDatabase: Product[] = [
         title: "GILDAN G180 Crewneck Sweater",
         sku:  "WSku18000",
         description: `
-            Wordans is pThe Gildan G180 - The Only Crewneck Sweatshirt You’ll Ever Need
-            In need of a comfortable and stylish crewneck sweatshirt that is sure to last countless wears and washes? Well, look no further than the Gildan G180. Part of the extensive Gildan selection of high-quality apparel, the G180 is great for keeping you warm on those chilly spring nights or layering under your coat in the colder months. Designed with a timeless, classic fit the Gildan Heavy Blend™ sweatshirt is ideal for any purpose, from relaxing at home to running errands like doing the shopping. You won’t find this item anywhere cheaper than here at Wordans, where you can find it in sizes from S to 5XL and in over 20 colours, so why not try it in a few different shades?
-            
             -13.3 oz./lin.yd., 50% USA cotton, 50% polyester
             
             -Pill-resistant air jet yarn
@@ -2315,7 +2338,172 @@ Size: 25 x 19mm (1" x 3/4").
             { quantity: "36-71", rate: 42.63 },
             { quantity: "72-144", rate: 39.49 },
         ],
+    },
+    {
+        id,
+        category: "tools",
+        subCategory: "knives",
+        title: "10 Function Camouflage Multi Tool",
+        sku: "MSKuMT004",
+        description: `Multi tool includes spring hinged pliers, knife, file, bottle opener and belt pouch are a few of the features. Open height is 6", closed 4"-2". 4" W x 2" L x 6" H`,
+        image: CamouflageImage1,
+        price: [
+            { quantity: 50, rate: 26.54 },
+            { quantity: 100, rate: 24.99 },
+            { quantity: 144, rate: 21.63 },
+            { quantity: 250, rate: 19.49 },
+        ],
+    },
+    {
+        id,
+        category: "tools",
+        subCategory: "knives",
+        title: "Rosewood Handle Pocket Knife (3-5 Days)",
+        sku: "MSKuKN021",
+        description:
+            "Decorative Rosewood handle Pocket Knife with Stainless steel Blade Nylon pouch with belt loop. 4 1/4 inches L X 1 1/2 W Irregular (CLOSED) 7 1/4\" L x 1 /4 W (irregular) OPEN. 4 1/4\" W x 1 1/2\" H",
+        image: RosewoodPocketKnifeImage1,
+        price: [
+            { quantity: 48, rate: 35.41 },
+            { quantity: 72, rate: 33.35 },
+            { quantity: 100, rate: 28.98 },
+            { quantity: 144, rate: 26.47 },
+        ],
+        secondImages: [RosewoodPocketKnifeImage2],
+    },
+    {
+        id,
+        category: "tools",
+        subCategory: "knives",
+        title: "Rosewood Knife, Burmese Sporting Knife with S/S Blade",
+        sku: "MSKuKN012",
+        description:
+            "Rosewood Knife, Burmese Sporting Knife with S/S blade, and oxide coating with lock back pressure point release blade, handle in S/S complete with Manchuria ash overlay. Comes in black vinyl pouch and gift box. 4 5/16\" W x 1 1/2\" H",
+        image: BurmeseSportingKnifeImage1,
+        price: [
+            { quantity: 35, rate: 37.07 },
+            { quantity: 72, rate: 35.52 },
+            { quantity: 144, rate: 31.72 },
+            { quantity: 288, rate: 27.23 },
+        ],
+        secondImages: [BurmeseSportingKnifeImage2],
+    },
+    {
+      id,
+      category: "homeAndlifestyle",
+      subCategory: "cuttingboards",
+      title: "Bamboo Cheese Board & 3 Piece Utensil",
+      sku: "MSKuCB007",
+      description:
+          "Large (eco friendly) Bamboo Cheese Board /Serving Tray. Includes 3 utensils, Fork, Spatula or Slicer. (Not Dishwasher Safe). 11 1/2\" W x 15 1/4\" H x 3/4\" D",
+      image: BambooCheeseBoardImage1,
+      price: [
+          { quantity: 25, rate: 45.35 },
+          { quantity: 100, rate: 42.81 },
+          { quantity: 250, rate: 37.10 },
+          { quantity: 500, rate: 33.84 },
+      ],
+    },
+    {
+        id,
+        category: "homeAndlifestyle",
+        subCategory: "barbeque",
+        title: "BBQ Tool and Mitt Set",
+        sku: "4SKuC131043",
+        description:
+          "Mitt: Polyester with cotton-padding. Utensils: Stainless steel. Includes spatula, tongs, and fork. One side black and the other side coated silver. Store the utensils inside the mitt when not in use. Size: 432 x 127 x 76mm (17\" x 5\" x 3\")",
+        image: BBQToolAndMittSetImage1,
+        price: [
+          { quantity: 24, rate: 39.66 },
+          { quantity: 50, rate: 37.99 },
+          { quantity: 72, rate: 33.63 },
+          { quantity: 144, rate: 29.49 },
+        ],
+        secondImages: [BBQToolAndMittSetImage2]
+    },
+    {
+        id,
+        category: "homeAndlifestyle",
+        subCategory: "barbeque",
+        title: "Wood BBQ Tongs",
+        sku: "4SUC146835",
+        description:
+          "Material: Stainless steel with wood handle. Non-stick coating on tongs. Comfort grip long handle. Size: 476 x 31 x 76mm (18.75\" x 1.25\" x 3\")",
+        image: WoodBBQTongsImage1,
+        price: [
+          { quantity: 50, rate: 29.66 },
+          { quantity: 100, rate: 26.99 },
+          { quantity: 250, rate: 24.63 },
+          { quantity: 500, rate: 19.49 },
+        ],
+    },
+    {
+        id,
+        category: "drinkware",
+        subCategory: "flasks",
+        title: "750 ML Stainless Steel Double Wall Insulated Thermos",
+        sku: "ItemDW001",
+        description:
+            "750 ML Stainless Steel Double Wall Insulated Thermos. The inner of the thermos is made of #304 stainless steel. The thickness is 0.40 mm. The shell is made of #201 stainless steel. Thermos is rustproof against regular liquids only. 11\" H x 3 1/4\" D",
+        image: ThermosImage1,
+        price: [
+            { quantity: 48, rate: 34.85 },
+            { quantity: 144, rate: 29.30 },
+            { quantity: 288, rate: 24.14 },
+            { quantity: 576, rate: 19.49 },
+        ],
+        secondImages: [ThermosImage2],
+    },
+    {
+      id,
+      category: "homeAndlifestyle",
+      subCategory: "barbeque",
+      title: "5 Piece Wood Handle Barbecue Set in Zippered Nylon Case",
+      sku: "MSKuBBQ001",
+      description:
+        "Barbecue Set with stainless steel tongs, spatula, knife, fork, and brush, all with wood handles, in a customizable heavy-duty zippered nylon tote case with an adjustable shoulder strap. Customization on utensils is not available except for the Tongs. Note: the color of the bag may vary.",
+      image: BBQSetImage1,
+      price: [
+        { quantity: 25, rate: 73.51 },
+        { quantity: 100, rate: 71.07 },
+        { quantity: 250, rate: 68.80 },
+        { quantity: 500, rate: 52.92 },
+      ],
+    },
+    {
+        id,
+        category: "tools",
+        subCategory: "others",
+        title: "MANICURE SET",
+        sku: "MS-002",
+        description:
+            "Manicure set in faux brown leather case. Set includes scissors, nail file, 2 nail clippers, Tweezer, cuticle pusher. 4 1/4\" W x 2 3/4\" H",
+        image: ManicureSetImage1,
+        price: [
+            { quantity: 100, rate: 14.25 },
+            { quantity: 250, rate: 13.12 },
+            { quantity: 500, rate: 9.21 },
+            { quantity: 1000, rate: 8.44 },
+        ],
+        secondImages: [ManicureSetImage2],
+    },
+    {
+      id,
+      category: "homeAndlifestyle",
+      subCategory: "cuttingboards",
+      title: "Cheese Board & 3 Piece Utensil Set",
+      sku: "CB-005",
+      description:
+        "Gift boxed Cheese-board with serving surface in-laid 3 wood handled utensils including a knife, fork, spreader, and slicer. Not dishwasher safe. 12 1/2\" W x 7 1/4\" H x 1/2\" D",
+      image: CheeseBoardUtensilSetImage1,
+      price: [
+        { quantity: 25, rate: 44.24 },
+        { quantity: 100, rate: 42.69 },
+        { quantity: 250, rate: 39.91 },
+        { quantity: 500, rate: 29.39 },
+      ],
     }
+    
 ]
 
 
