@@ -391,8 +391,8 @@ const productsDatabase: Product[] = [
     },
     {
         id,
-        category: "tools",
-        subCategory: "others",
+        category: "homeAndlifestyle",
+        subCategory: "golf",
         title: "Golf Scorecard Holder",
         sku:  "4SkuC142199",
         description: `
@@ -417,8 +417,8 @@ const productsDatabase: Product[] = [
     },
     {
         id,
-        category: "tools",
-        subCategory: "others",
+        category: "homeAndlifestyle",
+        subCategory: "golf",
         title: "Golf Towel",
         sku:  "4SkuC111688",
         description: `
@@ -443,7 +443,7 @@ const productsDatabase: Product[] = [
     {
         id,
         category: "homeAndlifestyle",
-        subCategory: "travel",
+        subCategory: "golf",
         title: "Poncho Ball Keychain",
         sku:  "4SkuC130479",
         description: `
@@ -533,8 +533,8 @@ Size: 25 x 19mm (1" x 3/4").
     },
     {
         id,
-        category: "tools",
-        subCategory: "others",
+        category: "homeAndlifestyle",
+        subCategory: "golf",
         title: "Spring Action Divot Tool",
         sku: "4SkuC146420",
         description: `
@@ -597,7 +597,7 @@ Size: 25 x 19mm (1" x 3/4").
         description: `
             97% Polyester/3% Spandex, Structured, mid-profile, 3½” crown, six-panel, Permacurve® visor, Moisture-wicking, Pioneered FLEXFIT technology, Velcro® closure, One Size.
         `,
-        image: bcaps1,
+        image: bcaps4,
         price: [
             {
                 quantity: "1-11",
@@ -616,7 +616,7 @@ Size: 25 x 19mm (1" x 3/4").
                 rate: 48.47
             }
         ],
-        secondImages: [bcaps2, bcaps3, bcaps4, bcaps5],
+        secondImages: [bcaps2, bcaps3, bcaps1, bcaps5],
     },
     {
         id,
@@ -627,7 +627,7 @@ Size: 25 x 19mm (1" x 3/4").
         description: `
             92% polyester, 8% PU Spandex; 6-panel, mid-profile, structured; 3-layered sweatband and patented Stain-Block technology for moisture-wicking; Flexfit bond taping for thermal regulation, anti-bacteria, and odor resistance; Permacurv visor; Black undervisor, 1-row stitching on visor; Closed back, stretch fitted.
         `,
-        image: ballcapImage1,
+        image: ballcapImage2,
         price: [
             {
                 quantity: "12-35",
@@ -646,7 +646,7 @@ Size: 25 x 19mm (1" x 3/4").
                 rate: 24.47
             }
         ],
-        secondImages: [ballcapImage2, ballcapImage3],
+        secondImages: [ballcapImage1, ballcapImage3],
     },
     {
         id,
@@ -890,6 +890,36 @@ Size: 25 x 19mm (1" x 3/4").
     },
     {
         id,
+        category: "homeAndlifestyle",
+        subCategory: "golf",
+        title: "Mesh Pocket Sportpack",
+        sku: "4SkuC104602",
+        description: `
+            These customizable Sportpacks are great for toting a change of clothes for the gym, a few buys from the store, or a few items to and from the office.
+        `,
+        image: sportpackImage1,
+        price: [
+            {
+                quantity: 50,
+                rate: 19.48
+            },
+            {
+                quantity: 72,
+                rate: 18.28
+            },
+            {
+                quantity: 144,
+                rate: 17.57
+            },
+            {
+                quantity: 288,
+                rate: 15.46
+            }
+        ],
+        secondImages: [sportpackImage2],
+    },
+    {
+        id,
         category: "tools",
         subCategory: "knives",
         title: "Carbine Tactical Knife",
@@ -1007,7 +1037,7 @@ Size: 25 x 19mm (1" x 3/4").
         title: "GILDAN 64000 - Men T-shirt",
         sku: "G640,G64000",
         description: `
-            The Gildan G640 is one of the most popular products in the Gildan Softstyle® t-shirt range and with good reason! Made from 100% ringspun cotton, this t-shirt is one of the softest and most comfortable options on the market. What’s more, you won’t find bulk deals for the Gildan G640 cheaper than right here at Wordans and with over 20 colour options to choose from in sizes S to 3XL, why not make a wholesale order today?
+            The Gildan G640 is one of the most popular products in the Gildan Softstyle® t-shirt range and with good reason! Made from 100% ringspun cotton, this t-shirt is one of the softest and most comfortable options on the market.
     
             * Fit: Semi-Fitted
             * Fabric: 4.5 oz/sq yd 100% Ring Spun Cotton
@@ -1133,10 +1163,10 @@ Size: 25 x 19mm (1" x 3/4").
         description: "",
         image: wineBoxImage,
         price: [
-            { quantity: 25, rate: 59.99 },
-            { quantity: 36, rate: 57.99 },
+            { quantity: 24, rate: 59.99 },
+            { quantity: 48, rate: 57.99 },
             { quantity: 72, rate: 52.99 },
-            { quantity: 100, rate: 49.99 },
+            { quantity: 144, rate: 49.99 },
         ],
         secondImages: [wineBoxImage2],
     },
@@ -1181,8 +1211,8 @@ Size: 25 x 19mm (1" x 3/4").
         price: [
             { quantity: 25, rate: 34.99 },
             { quantity: 50, rate: 32.99 },
-            { quantity: 1, rate: 29.57 },
-            { quantity: 2.5, rate: 24.95 },
+            { quantity: 100, rate: 29.57 },
+            { quantity: 250, rate: 24.95 },
         ],
         secondImages: [flashlightToolImage2, flashlightToolImage3, flashlightToolImage4],
     },
@@ -1790,8 +1820,29 @@ Size: 25 x 19mm (1" x 3/4").
     },
     {
         id,
-        category: "apparel",
+        category: "homeAndlifestyle",
         subCategory: "sunglasses",
+        title: "Dynamic Mirror Sunglasses",
+        sku: "4SkuC153981",
+        description: `
+            Imprinted sunglasses feature durable frames and lenses. Mirrored lenses and coloured frames for added style
+            Frame Material: Plastic/Acrylic blend
+            Lens Material: Plastic
+            Impact-resistant lenses with tint and mirror finish
+            UV400 Protection
+            Size: One size fits most
+        `,
+        image: dynamicMirrorSunglassesImage1,
+        price: [
+            { quantity: "1-35", rate: 18.84 },
+            { quantity: "36-71", rate: 17.27 },
+            { quantity: 72, rate: 14.84 },
+        ],
+    },
+    {
+        id,
+        category: "homeAndlifestyle",
+        subCategory: "golf",
         title: "Dynamic Mirror Sunglasses",
         sku: "4SkuC153981",
         description: `
@@ -1833,7 +1884,7 @@ Size: 25 x 19mm (1" x 3/4").
     },
     {
         id,
-        category: "apparel",
+        category: "homeAndlifestyle",
         subCategory: "sunglasses",
         title: "Vintage Chic Sunglasses",
         sku: "4SkuC121113",
@@ -1855,7 +1906,7 @@ Size: 25 x 19mm (1" x 3/4").
     },
     {
         id,
-        category: "apparel",
+        category: "homeAndlifestyle",
         subCategory: "sunglasses",
         title: "Polarized Sunglasses",
         sku: "4SkuC139834",
@@ -1878,7 +1929,7 @@ Size: 25 x 19mm (1" x 3/4").
     },
     {
         id,
-        category: "apparel",
+        category: "homeAndlifestyle",
         subCategory: "sunglasses",
         title: "On the Fly Aviator Sunglasses - Gradient Lens",
         sku: "4SkuC134050GL",

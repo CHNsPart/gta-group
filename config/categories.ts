@@ -10,15 +10,48 @@ interface ProductCategory {
 
 export const productCategory: ProductCategory[] = [
     {
-      menu: "Apparel",
+      menu: "Best Seller",
       items: [
         {
-          label: "All Product",
+          label: "Apparel",
           link: "/categories/apparel/"
         },
         {
-          label: "Sun Glasses",
-          link: "/categories/apparel/sunglasses"
+          label: "Pens",
+          link: "/categories/tools/pens"
+        },
+        {
+          label: "Flash Lights",
+          link: "/categories/tools/flashlights"
+        },
+        {
+          label: "Hoodies",
+          link: "/categories/apparel/hoodies"
+        },
+        {
+          label: "Polo Shirts",
+          link: "/categories/apparel/poloshirts"
+        },
+        {
+          label: "Golf",
+          link: "/categories/homeAndlifestyle/golf"
+        },
+        {
+          label: "Bags",
+          link: "/categories/tools/bags"
+        },
+        {
+          label: "Knives/MultiTools",
+          link: "/categories/tools/knives"
+        },
+      ]
+    },
+    {
+      menu: "Apparel",
+      items: [
+        {
+          label: "All Products",
+          link: "/categories/apparel/"
         },
         {
           label: "Hoodies",
@@ -58,7 +91,7 @@ export const productCategory: ProductCategory[] = [
       menu: "Drinkware",
       items: [
         {
-          label: "All Product",
+          label: "All Products",
           link: "/categories/drinkware/"
         },
         {
@@ -87,12 +120,16 @@ export const productCategory: ProductCategory[] = [
       menu: "Home & Lifestyle",
       items: [
         {
-          label: "All Product",
+          label: "All Products",
           link: "/categories/homeAndlifestyle/"
         },
         {
           label: "Cutting Boards",
           link: "/categories/homeAndlifestyle/cuttingboards"
+        },
+        {
+          label: "Sun Glasses",
+          link: "/categories/homeAndlifestyle/sunglasses"
         },
         {
           label: "Barbeque",
@@ -120,7 +157,7 @@ export const productCategory: ProductCategory[] = [
       menu: "Safety Gear",
       items: [
         {
-          label: "All Product",
+          label: "All Products",
           link: "/categories/safetygear/"
         },
         {
@@ -128,7 +165,7 @@ export const productCategory: ProductCategory[] = [
           link: "/categories/safetygear/safetyglasses"
         },
         {
-          label: "Safety Cloths",
+          label: "Safety Clothes",
           link: "/categories/safetygear/safetycloths"
         },
       ]
@@ -137,7 +174,7 @@ export const productCategory: ProductCategory[] = [
       menu: "Tools",
       items: [
         {
-          label: "All Product",
+          label: "All Products",
           link: "/categories/tools/"
         },
         {
@@ -157,7 +194,7 @@ export const productCategory: ProductCategory[] = [
           link: "/categories/tools/flashlights"
         },
         {
-          label: "Knives",
+          label: "Knives/MultiTools",
           link: "/categories/tools/knives"
         },
         {
