@@ -7,9 +7,9 @@ import { Header } from "@/components/hero-section";
 import TeamStats from "@/components/team-stats";
 import CompanyInfo from "@/components/company-info";
 import SaleBanner from "@/components/sale-banner";
-import { CarouselPlugin } from '@/components/carousel-products';
-import { IoIosCloseCircle } from "react-icons/io";
-import { Button } from '@/components/ui/button';
+// import { CarouselPlugin } from '@/components/carousel-products';
+// import { IoIosCloseCircle } from "react-icons/io";
+// import { Button } from '@/components/ui/button';
 
 export default function IndexPage() {
   // const [showPopup, setShowPopup] = useState(false);
@@ -34,9 +34,9 @@ export default function IndexPage() {
   );
 }
 
-interface PopupProps {
-  onClose: () => void;
-}
+// interface PopupProps {
+//   onClose: () => void;
+// }
 
 // const Popup: React.FC<PopupProps> = ({ onClose }) => {
 //   return (
