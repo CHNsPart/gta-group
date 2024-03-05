@@ -18,13 +18,23 @@ interface ProductCardProps {
   };
 }
 
+const centered = `block size-full object-cover object-center transition-all hover:scale-105`
+const topped = `block size-full object-cover object-top transition-all hover:scale-105`
+
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => (
   <div className="w-full p-4 md:w-1/2 lg:w-1/4">
     <a href={`/categories/${product.category}/${product.subCategory}/${product.sku}`} className="relative block h-56 overflow-hidden rounded hover:cursor-pointer">
       <Image
         quality={100}
         alt={product.title}
-        className={product.subCategory==="hoodies" || "poloshirts" || "crewneck" || "tshirts" ? `block size-full object-cover object-top transition-all hover:scale-105` : `block size-full object-cover object-center transition-all hover:scale-105`}
+        className={
+          (product.subCategory === "hoodies" ||
+           product.subCategory === "poloshirts" ||
+           product.subCategory === "crewneck" ||
+           product.subCategory === "tshirts") 
+            ? topped
+            : centered
+        } 
         src={product.image}
       />
     </a>

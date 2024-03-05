@@ -1341,9 +1341,9 @@ Size: 25 x 19mm (1" x 3/4").
         image: steakKnifeImage3,
         price: [
             { quantity: 24, rate: 34.99 },
-            { quantity: 144, rate: 32.60 },
-            { quantity: 288, rate: 27.73 },
-            { quantity: 576, rate: 24.17 },
+            { quantity: 48, rate: 32.60 },
+            { quantity: 100, rate: 27.73 },
+            { quantity: 144, rate: 24.17 },
         ],
         secondImages: [steakKnifeImage2, steakKnifeImage, steakKnifeImage4],
     },
