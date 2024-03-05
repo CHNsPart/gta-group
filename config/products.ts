@@ -1205,7 +1205,7 @@ Size: 25 x 19mm (1" x 3/4").
             { quantity: 50, rate: 21.48 },
             { quantity: 72, rate: 20.28 },
             { quantity: 144, rate: 19.57 },
-            { quantity: 2500, rate: 16.46 },
+            { quantity: 250, rate: 16.46 },
         ],
     },
     {
@@ -1220,7 +1220,7 @@ Size: 25 x 19mm (1" x 3/4").
             { quantity: 36, rate: 22.48 },
             { quantity: 72, rate: 20.85 },
             { quantity: 144, rate: 17.99 },
-            { quantity: 2500, rate: 15.46 },
+            { quantity: 250, rate: 15.46 },
         ],
     },
     {
