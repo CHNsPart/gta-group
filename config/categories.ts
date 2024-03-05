@@ -166,7 +166,7 @@ export const productCategory: ProductCategory[] = [
         },
         {
           label: "Safety Clothes",
-          link: "/categories/safetygear/safetycloths"
+          link: "/categories/safetygear/safetyclothes"
         },
       ]
     },

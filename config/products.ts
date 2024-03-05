@@ -353,7 +353,7 @@ const productsDatabase: Product[] = [
             
             -Set-in sleeves
             
-            -1x1 ribbed collar, cuffs and waistband with spandexroud to present the Gildan 18000, the essential crewneck sweatshirt for all occasions! It is one of the most comfortable sweaters around, which is why it’s one of our bestsellers. Made from a 50/50 USA cotton/polyester blend, you can be sure the Gildan 18000 will keep its shape and feel long after you’ve bought it. As with many Gildan sweatshirts, the 18000 is perfect for daily wear, no matter the activity, whether you’re running errands or having a relaxing day on the sofa. With over 20 different colours available, there’s definitely a Gildan 18000 to go with every outfit, so get yours today at Wordans!        `,
+            -1x1 ribbed collar, cuffs and waistband with spandexroud to present the Gildan 18000, the essential crewneck sweatshirt for all occasions! It is one of the most comfortable sweaters around, which is why it’s one of our bestsellers. Made from a 50/50 USA cotton/polyester blend, you can be sure the Gildan 18000 will keep its shape and feel long after you’ve bought it. As with many Gildan sweatshirts, the 18000 is perfect for daily wear, no matter the activity, whether you’re running errands or having a relaxing day on the sofa. With over 20 different colours available.`,
         image: crewPic,
         price: [
             {
@@ -734,7 +734,7 @@ Size: 25 x 19mm (1" x 3/4").
     {
         id,
         category: "safetygear",
-        subCategory: "safetycloths",
+        subCategory: "safetyclothes",
         title: "Berne HVF024T - Men's Safety Tall Striped Thermal Lined Sweatshirt",
         sku: "WSkuBerneHVF024T",
         description: `
@@ -764,7 +764,7 @@ Size: 25 x 19mm (1" x 3/4").
     {
         id,
         category: "safetygear",
-        subCategory: "safetycloths",
+        subCategory: "safetyclothes",
         title: "CX2 S05970 - Lookout Hi-Vis Safety Long Sleeve Shirt",
         sku: "WSkuCX2S05970",
         description: `
@@ -794,7 +794,7 @@ Size: 25 x 19mm (1" x 3/4").
     {
         id,
         category: "safetygear",
-        subCategory: "safetycloths",
+        subCategory: "safetyclothes",
         title: "CX2 L01170 - Protector One Size High Vis Safety Vest",
         sku: "WSkuCX2L01170",
         description: `
@@ -824,7 +824,7 @@ Size: 25 x 19mm (1" x 3/4").
     {
         id,
         category: "safetygear",
-        subCategory: "safetycloths",
+        subCategory: "safetyclothes",
         title: "CX2 S05960 - Watchman Hi-Vis Safety T-Shirt",
         sku: "WSkuCX2S05960",
         description: `
