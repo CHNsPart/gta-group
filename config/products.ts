@@ -446,7 +446,7 @@ const productsDatabase: Product[] = [
         sku:  "4SkuC111688",
         description: `
             These golf towels at your next golf outing! Towels are made from cotton velour, and have hemmed edges for added durability.`,
-        image: C111688_1,
+        image: C111688_2,
         price: [
             {
                 quantity: 49,
@@ -461,7 +461,7 @@ const productsDatabase: Product[] = [
                 rate:14.68
             },
         ],
-        secondImages: [C111688_2],
+        secondImages: [C111688_1],
     },
     {
         id,
