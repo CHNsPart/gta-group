@@ -71,10 +71,13 @@ export function MainNav({ items }: MainNavProps) {
   };
 
   return (
-    <div className="flex h-fit w-full mr-0 md:mr-5 flex-wrap md:flex-nowrap justify-between items-center gap-6 md:gap-10">
+    <div className="mr-0 flex h-fit w-full flex-wrap items-center justify-between gap-6 md:mr-5 md:flex-nowrap md:gap-10">
       <Link href="/" className="flex items-center space-x-2">
         <Image src={onlyLogo} priority height={100} width={100} alt="logo" />
-        <span className="inline-block text-xl md:text-4xl font-bold">{siteConfig.name}</span>
+        <span className="flex flex-col text-xl font-bold md:text-4xl">
+          {siteConfig.name}
+          <span className="hidden text-sm tracking-widest md:block">Sales & Marketing</span>
+        </span>
       </Link>
       {/* Hamburger Menu Button */}
       <button

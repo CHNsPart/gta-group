@@ -8,8 +8,10 @@ export default function page() {
         {"Promotional products like apparel, desk accessories, bags and gifts are the perfect way to build your brand. Whether you’re rebranding, planning an event or simply launching a marketing campaign, we’ll make sure you reach your goals, no matter how big or small. Contact us today to learn about our product options and why promo products are a great marketing tool."}
       </p>
       <span className="mt-6 w-1/2 rounded-lg bg-gradient-to-tr from-blue-500 to-blue-700 px-5 py-2 text-center text-lg text-white">Contact Us</span>
+      
       <span className='flex w-fit items-center justify-center rounded-b-lg bg-gray-950 px-5 py-2.5 text-center text-white dark:bg-gray-100 dark:text-black'>
-        416-799-1296<br/>
+        GTA Sales & Marketing Group <br/>
+        416-799-1296 <br/>
         easypaygtagroup@gmail.com
       </span>
     </div>

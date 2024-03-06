@@ -12,7 +12,17 @@ const CategoryPage = () => {
     const category = window.location.pathname.split("/")[2];
     setCategoryName(category);
 
-    const filteredProducts: Product[] = products.filter((product) => product.category === category);
+    const uniqueSkus = new Set<string>();
+    const filteredProducts: Product[] = [];
+
+    // Filter and add only unique products based on SKU
+    products.forEach((product) => {
+      if (product.category === category && !uniqueSkus.has(product.sku)) {
+        uniqueSkus.add(product.sku);
+        filteredProducts.push(product);
+      }
+    });
+
     setCategoryProducts(filteredProducts);
   }, []);
 

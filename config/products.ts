@@ -1137,9 +1137,9 @@ Size: 25 x 19mm (1" x 3/4").
         image: mpen,
         price: [
             { quantity: 100, rate: 3.80 },
-            { quantity: 500, rate: 3.49 },
-            { quantity: 1000, rate: 2.75 },
-            { quantity: 2500, rate: 2.25 },
+            { quantity: 250, rate: 3.49 },
+            { quantity: 500, rate: 2.75 },
+            { quantity: 1000, rate: 2.25 },
         ],
     },
     {
@@ -1322,14 +1322,14 @@ Size: 25 x 19mm (1" x 3/4").
         title: "Primetime Pen - Metallic",
         sku: "4SkuC107547MET",
         description: "The slim pen size makes it a nice fit in the hand, pen loop, or a notebook spiral. Rich metallic barrel colours will stand out in their desk drawers.",
-        image: penImage,
+        image: penImage2,
         price: [
-            { quantity: 300, rate: 3.89 },
-            { quantity: 500, rate: 3.42 },
-            { quantity: 1000, rate: 2.99 },
-            { quantity: 2500, rate: 2.25 },
+            { quantity: 100, rate: 3.89 },
+            { quantity: 250, rate: 3.42 },
+            { quantity: 500, rate: 2.99 },
+            { quantity: 1000, rate: 2.25 },
         ],
-        secondImages: [penImage2],
+        secondImages: [penImage],
     },
     {
         id,

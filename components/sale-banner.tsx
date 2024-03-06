@@ -20,7 +20,10 @@ const SaleBanner: React.FC = () => {
           {/* content - end */}
 
           {/* image - start */}
-          <div className="order-first h-48 w-full bg-gray-700 sm:order-none sm:h-auto sm:w-1/2 lg:w-3/5">
+          <div className="relative order-first h-48 w-full bg-gray-700 sm:order-none sm:h-auto sm:w-1/2 lg:w-3/5">
+            <span className='absolute right-0 top-0 w-1/2 p-5 text-left text-sm font-bold text-secondary md:top-1/3 md:text-lg'>
+              Our Sales Team are paid the most in the industry 45% commission
+            </span>
             <Image
               height={500}
               width={500}
