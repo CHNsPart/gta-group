@@ -1501,13 +1501,25 @@ Size: 25 x 19mm (1" x 3/4").
         title: "Northline Emergency COB Flashlight",
         sku: "4SkuC148717",
         description: `
-            This emergency tool features a side COB light, seatbelt cutter, and a window hammer.
-            Material: Metal
-            60 lumen COB light
-            Seal belt cutter
-            Window hammer
-            Includes five replaceable button cell batteries
-            Size: 127 x 44mm (5" long x 1-3/4" W)
+            Material: Plastic with stainless steel accents
+            COB flashlight
+            Seat belt cutter
+            Window-breaking hammer
+            Flathead screwdriver
+            Phillips screwdriver
+            Hex wrenches
+            Bottle opener
+            Scissors
+            Knife
+            
+            Flashlight
+            Bulb Type: COB
+            Lumens: 250
+            On/Off button to activate
+            Three Settings: High, low and flashlight
+            Adjustable light and push/pull zoom
+            Includes 3 replaceable AAA batteries
+            Size: 146 x 38mm (5-3/4" H x 1-1/2" W x 1-1/2" D)
         `,
         image: emergencyFlashlightImage1,
         price: [
