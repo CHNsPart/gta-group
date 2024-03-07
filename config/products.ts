@@ -421,7 +421,7 @@ const productsDatabase: Product[] = [
         description: `
         This bi-fold, faux leather scorecard holder securely holds midsized cards and closes neatly when not in use. An interior elastic-bound pencil loop can hold your on-course writing utensil. The compact design fits neatly into your golf bag.
         `,
-        image: golf_1,
+        image: golf_2,
         price: [
             {
                 quantity: 49,
@@ -436,7 +436,7 @@ const productsDatabase: Product[] = [
                 rate:14.68
             },
         ],
-        secondImages: [golf_2],
+        secondImages: [golf_1],
     },
     {
         id,
