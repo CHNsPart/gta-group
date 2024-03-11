@@ -44,7 +44,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         >
           <ThemeProvider attribute="class" defaultTheme="dark">
             <div className="relative flex min-h-screen flex-col">
-              <AnnouncementBar/>
+              {/* <AnnouncementBar/> */}
               <SiteHeader />
               <ProductNav />
               <div className="flex-1">{children}</div>
