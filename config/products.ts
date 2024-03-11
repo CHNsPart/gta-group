@@ -1403,14 +1403,14 @@ Size: 25 x 19mm (1" x 3/4").
             Features an easy snap on lock button, 500 ml (Not microwave or dishwasher safe) 
             Approximately: 12 Hours Hot/Cold. 6.5" H x 3" W
         `,
-        image: breezeTumblerImage1,
+        image: breezeTumblerImage3,
         price: [
             { quantity: 48, rate: 29.99 },
             { quantity: 72, rate: 25.99 },
             { quantity: 100, rate: 22.00 },
             { quantity: 144, rate: 19.99 },
         ],
-        secondImages: [breezeTumblerImage2, breezeTumblerImage3],
+        secondImages: [breezeTumblerImage2, breezeTumblerImage1],
     },
     {
         id,

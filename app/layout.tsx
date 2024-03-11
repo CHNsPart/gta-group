@@ -8,6 +8,7 @@ import { SiteHeader } from "@/components/site-header"
 import { ThemeProvider } from "@/components/theme-provider"
 import ProductNav from "@/components/product-nav"
 import Footer from "@/components/footer"
+import AnnouncementBar from "@/components/announcement-bar"
 
 export const metadata: Metadata = {
   title: {
@@ -43,6 +44,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         >
           <ThemeProvider attribute="class" defaultTheme="dark">
             <div className="relative flex min-h-screen flex-col">
+              <AnnouncementBar/>
               <SiteHeader />
               <ProductNav />
               <div className="flex-1">{children}</div>

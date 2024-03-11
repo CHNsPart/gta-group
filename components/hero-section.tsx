@@ -39,7 +39,7 @@ export const Header = () => {
             width={500}
             quality={100}
             priority
-            className="h-56 w-full rounded object-cover sm:h-96 lg:h-full lg:rounded-none lg:shadow-none"
+            className="h-56 w-full rounded object-cover sm:h-96 lg:h-fit lg:rounded-none lg:shadow-none"
             src="/hero-gta.svg"
             alt="hero"
           />
