@@ -31,6 +31,7 @@ interface RootLayoutProps {
   children: React.ReactNode
 }
 
+
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <>
@@ -51,6 +52,21 @@ export default function RootLayout({ children }: RootLayoutProps) {
               <Footer/>
             </div>
           </ThemeProvider>
+          <script
+          type="text/javascript"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.omnisend = window.omnisend || [];
+              omnisend.push(["accountID", "65f36a5ce38c5a6b6d20baab"]);
+              omnisend.push(["track", "$pageViewed"]);
+              !function(){var e=document.createElement("script");
+              e.type="text/javascript",e.async=!0,
+              e.src="https://omnisnippet1.com/inshop/launcher-v2.js";
+              var t=document.getElementsByTagName("script")[0];
+              t.parentNode.insertBefore(e,t)}();
+            `
+          }}
+        />
         </body>
       </html>
     </>
