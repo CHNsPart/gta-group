@@ -2,6 +2,8 @@ import Image from "next/image";
 import { Button } from "./ui/button";
 import Link from "next/link";
 
+// inset-y-0 right-0 mx-auto w-full max-w-xl px-4 lg:absolute lg:mx-0 lg:mb-0 lg:w-1/2 lg:max-w-full lg:pl-8 lg:pr-0 xl:px-0
+
 export const Header = () => {
     return (
       <div className="relative flex w-full flex-col bg-gradient-to-tr from-blue-300 to-white py-16 dark:from-blue-950 lg:flex-col lg:py-0">
@@ -33,17 +35,32 @@ export const Header = () => {
             </div>
           </div>
         </div>
-        <div className="inset-y-0 right-0 mx-auto w-full max-w-xl px-4 lg:absolute lg:mx-0 lg:mb-0 lg:w-1/2 lg:max-w-full lg:pl-8 lg:pr-0 xl:px-0">
+        {/* <div className="w-">
           <Image
             height={500}
             width={500}
             quality={100}
             priority
-            className="h-56 w-full rounded object-cover sm:h-96 lg:h-fit lg:rounded-none lg:shadow-none"
+            className="h-56 w-full rounded object-cover object-center sm:h-96 lg:h-auto lg:w-full lg:rounded-none lg:shadow-none"
             src="/hero-gta.svg"
             alt="hero"
           />
+        </div> */}
+        <div className="relative inset-y-0 right-0 mx-auto w-full max-w-sm px-4 lg:absolute lg:mx-0 lg:mb-0 lg:w-1/2 lg:max-w-full lg:pl-8 lg:pr-0 xl:px-0">
+          <div className="h-96 w-full overflow-hidden rounded lg:h-auto">
+            <Image
+              layout="fill"
+              objectFit="contain"
+              objectPosition="center"
+              quality={100}
+              priority
+              src="/hero-gta.svg"
+              alt="hero"
+            />
+          </div>
         </div>
+
+
       </div>
     );
   };
